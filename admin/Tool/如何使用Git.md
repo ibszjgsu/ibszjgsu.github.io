@@ -1,4 +1,4 @@
-# 如何使用Git
+# 如何使用Git 
 
 
 
@@ -24,3 +24,15 @@
 
    推荐看廖雪峰的网站 [here](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
+
+# 如何使用Markdown
+
+你不可缺少的技能——Markdown编辑
+
+Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单，容易学习，常用的标记符号十来个。而且功能比纯文本更强，因此有很多人用它写博客。相对于复杂的HTML标记语言来说，Markdown十分轻量，学习成本低，一旦熟悉规则，会有一劳永逸的效果。
+
+链接：
+
+- 简书上的介绍 [here](https://www.jianshu.com/p/3e906d2ce346)
+- 知乎上的介绍 [here](https://www.zhihu.com/topic/19590742/hot)
+- 用 Markdown 写作用什么文本编辑器 [here](https://www.zhihu.com/question/19637157/answer/78063239)
