@@ -68,15 +68,15 @@ def table_exist(tab_name):
     res = tab_name in tabnames
     return res
 
-conn = mysql.connector.connect(host="localhost",port=3306,user="root",\
-                       password= '11031103',database="journal_list",charset="utf8")
+conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
+                       password= '11031103',database="journalcontact",charset="utf8")
 cur = conn.cursor()
 
 if not table_exist('email_jour_auth2'):
     sql_create = 'create table email_jour_auth2 (id int unsigned auto_increment primary key, \
         author varchar(50) null, email varchar(50) null, \
         confidence int(20) null, cn varchar(20) null, country varchar(20) null,\
-        journal varchar(50) null, citation varchar(20) null, volume varchar(20) null, year varchar(20) null\
+        journal varchar(50) null, citation varchar(20) null, volume varchar(20) null, year varchar(20) null,\
         title varchar(200) null, url varchar(200) null)'
     cur.execute(sql_create)
 

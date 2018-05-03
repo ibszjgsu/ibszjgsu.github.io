@@ -68,8 +68,8 @@ def table_exist(tab_name):
     res = tab_name in tabnames
     return res
 
-conn = mysql.connector.connect(host="localhost",port=3306,user="root",\
-                       password= '11031103',database="journal_list",charset="utf8")
+conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
+                       password= '11031103',database="journalcontact")
 cur = conn.cursor()
 
 
@@ -98,7 +98,7 @@ sql = "select url from "+ nam_jour
 cur.execute(sql)
 urls = cur.fetchall()
 
-for i in range(1,len(titles)):
+for i in range(545,len(titles)):
     (emails,) = email_list[i]
     (authors,) = author_list[i]
     # If there is no emailaddress then skip this record
@@ -122,4 +122,4 @@ for i in range(1,len(titles)):
         cur.execute(sql_ins, cont_ins)
     conn.commit()
     
-
+# cur.execute('alter table email_jour_auth modify title varchar(400) null')
