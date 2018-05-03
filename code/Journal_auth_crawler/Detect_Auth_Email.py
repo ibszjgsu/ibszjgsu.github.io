@@ -72,16 +72,15 @@ conn = mysql.connector.connect(host="localhost",port=3306,user="root",\
                        password= '11031103',database="journal_list",charset="utf8")
 cur = conn.cursor()
 
-
-if not table_exist('email_jour_auth'):
-    sql_create = 'create table email_jour_auth (id int unsigned auto_increment primary key, \
+if not table_exist('email_jour_auth2'):
+    sql_create = 'create table email_jour_auth2 (id int unsigned auto_increment primary key, \
         author varchar(50) null, email varchar(50) null, \
         confidence int(20) null, cn varchar(20) null, country varchar(20) null,\
-        journal varchar(50) null, citation varchar(20) null, \
+        journal varchar(50) null, citation varchar(20) null, volume varchar(20) null, year varchar(20) null\
         title varchar(200) null, url varchar(200) null)'
     cur.execute(sql_create)
 
-nam_jour = 'jsas'
+nam_jour = 'ejos'
 sql = "select authors from "+ nam_jour
 cur.execute(sql)
 author_list = cur.fetchall()
@@ -97,6 +96,12 @@ citations = cur.fetchall()
 sql = "select url from "+ nam_jour
 cur.execute(sql)
 urls = cur.fetchall()
+sql = "select volume from "+ nam_jour
+cur.execute(sql)
+vols = cur.fetchall()
+sql = "select year from "+ nam_jour
+cur.execute(sql)
+yrs = cur.fetchall()
 
 for i in range(1,len(titles)):
     (emails,) = email_list[i]
@@ -116,9 +121,9 @@ for i in range(1,len(titles)):
             
         cname = findsurname(str.lower(au_email[0].split(',')[0].split(' ')[-1]))
         
-        sql_ins = 'insert into email_jour_auth (author, email, confidence, cn, country, journal, citation, title, url) \
-        values ("%s","%s","%s","%s","%s","%s","%s","%s","%s")'
-        cont_ins = [au_email[0],em,au_email[1], cname ,country,nam_jour,citations[i][0], titles[i][0], urls[i][0]]
+        sql_ins = 'insert into email_jour_auth2 (author, email, confidence, cn, country, journal, citation, volume, year, title, url) \
+        values ("%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s")'
+        cont_ins = [au_email[0],em,au_email[1], cname ,country,nam_jour,citations[i][0],vols[i][0], yrs[i][0], titles[i][0], urls[i][0]]
         cur.execute(sql_ins, cont_ins)
     conn.commit()
     
