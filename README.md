@@ -11,6 +11,7 @@
 
 1. Sultan [20180402](admin/Pub/news/Seminar20180403bySultan.md)
 2. 罗铖 20180417 
+3. Tauni 20180507
 
 **工具列表**
 
@@ -21,3 +22,8 @@
 
 **微信**
 1. [关于](四月微信推送计划.md)
+
+**广告邮件**
+
+1. 广告邮件[内容](https://github.com/ibszjgsu/ibszjgsu.github.io/blob/master/code/Mail_to_multi_receiver/content.txt)
+
