@@ -41,7 +41,6 @@ for i in range(0,len(friendlist)):
     itchat.send_image(img,toUserName=username)
 #
 #　发送文件： msg='@fil@path_to_file'
-#
-#　　发送图片：msg='@img@path_to_img'
+
 #
 #　　发送视频：msg='@vid@path_to_vid'
