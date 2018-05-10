@@ -19,6 +19,9 @@ itchat.auto_login(True)
 friendID = find_friend('小老虎')
 SINCERE_WISH = [u'去你的',u'滚',u'想死呀',u'见鬼吧~',u'考试挂科咯!']
 #SINCERE_WISH = [u'祝中秋快乐',u'中秋快乐呀',u'中秋快乐哟',u'中秋节快乐呀~',u'中秋节快乐!',u'中秋国庆快乐!']
+for i in range(0,10):  
+        SEND_WISH=random.choice(SINCERE_WISH)
+        itchat.send_msg(SEND_WISH,toUserName=friendID['UserName'])
 
 @itchat.msg_register(itchat.content.TEXT)   #这里的TEXT表示如果有人发送文本消息，那么就会调用下面的方法
 def simple_reply(msg, friendID):

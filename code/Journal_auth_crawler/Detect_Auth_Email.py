@@ -5,6 +5,10 @@ Created on Sat Apr 28 22:22:10 2018
 @author: Ni He
 """
 
+"""
+需要修改的地方就是数据库新建表格的名称（email_jour_auth2 一共三处）和期刊的名称（ejos 一处），其他地方无需修改
+"""
+
 # fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 # pip install fuzzywuzzy
