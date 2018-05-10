@@ -36,13 +36,17 @@ f.close()
 
 mailto_list = []
 rec_name = []
+rec_article = []
 f = csv.reader(open(os.getcwd()+'\\namelist.csv')) # 读取收件人 邮箱和姓名信息
 for rows in f:
     mailto_list.append(rows[2])
     rec_name.append(rows[0])
+    rec_article.append(rows[3])
     
 mailto_list.pop(0) # 删除行号
 rec_name.pop(0)
+rec_article.pop(0)
+
 
 ########
   
@@ -60,7 +64,8 @@ mail_postfix="zjgsu.edu.cn"                     #邮箱的后缀，网易就是1
 
 #######
 for i in range(len(mailto_list)):
-    content = '尊敬的' + rec_name[i]+'\n\n' + mailcontent                         #发送1封，上面的列表是几个人，这个就填几  
+    modifiedcontent = mailcontent.split('XXX')[0] + rec_article[i] + mailcontent.split('XXX')[1]
+    content = 'Dear' + rec_name[i]+'\n' + modifiedcontent                         #发送1封，上面的列表是几个人，这个就填几  
     if send_mail(mailto_list[i],mailsub,content):  #邮件主题和邮件内容  
             #这是最好写点中文，如果随便写，可能会被网易当做垃圾邮件退信  
         print("Mail sent to "+mailto_list[i]+' successfully!')  

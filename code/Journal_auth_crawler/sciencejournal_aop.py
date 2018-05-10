@@ -6,7 +6,7 @@ Created on Tue Apr 17 17:45:50 2018
 
 数据库表格的名字需要修改 ejos 一共 三处
 中断处理办法：读出中断时候的i和pg； 将第96行附近的循环中的i从中断i开始，运行一次；
-修改i回到原始状态；将65行附近的循环中的pg从中断pg运行到结束；
+修改i回到原始状态( for i in range(0,len(paper_suburls)))；将65行附近的循环中的pg从中断pg+1运行到结束；
 """
 
 import requests
@@ -28,9 +28,9 @@ conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
                        password="11031103",database="journalcontact",charset="utf8")
 cur = conn.cursor()
 
-if not table_exist('aos'):
+if not table_exist('newjoe'):
     #build a new table named by the journal title 
-    sql = "create table aos (id int not null unique auto_increment, \
+    sql = "create table newjoe (id int not null unique auto_increment, \
          title varchar(300), authors varchar(300), au_email varchar(300),\
          citation varchar(20), volume varchar(20), issue varchar(20), year varchar(20), url varchar(300),\
          primary key(id))"
@@ -57,12 +57,12 @@ pageurlsuffix = '&cacheurlFromRightClick=no'
 """
 需要修改
 """
-pagenum = 112
-pageurl ='http://apps.webofknowledge.com/summary.do?product=UA&colName=&qid=3&SID=7DHKldoIk7s96iB8XbL&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
+pagenum = 152
+pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=1474&SID=7DHKldoIk7s96iB8XbL&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
 
 
 
-for pg in range(1,pagenum + 1):
+for pg in range(32,pagenum + 1):
     # Next page URL, being used before the end of this loop
     nexturl = pageurl + str(pg)
     # Proceeds to next page by using nexturl
@@ -94,7 +94,7 @@ for pg in range(1,pagenum + 1):
     paper_auths = re.findall(paper_auths_pat,res.text, re.S)
     
     
-    for i in range(1,len(paper_suburls)):
+    for i in range(0,len(paper_suburls)):
         # Clean up the suburl
         suburl = paper_suburls[i].replace('&amp','')
         paper_suburl = pageurlprefix+suburl.replace(';','&')+pageurlsuffix
@@ -117,11 +117,16 @@ for pg in range(1,pagenum + 1):
             paper_email = ','.join(paper_email)
         elif len(paper_email) == 1:
             paper_email = paper_email[0]
+            
+        if i >= len(paper_iss):
+            iss = 'NULL'
+        else:
+            iss = paper_iss[i]
         # Store the data into Database
-        sql_ins = "insert into aos (title, authors, au_email, citation, volume, issue, year, url) \
+        sql_ins = "insert into newjoe (title, authors, au_email, citation, volume, issue, year, url) \
         values ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" %\
         (paper_titles[i].replace("'","").replace('"',''), paper_auths[i].replace("'","").replace('"',''), paper_email, cites,\
-         paper_vols[i] or 'NULL', paper_iss[i] or 'NULL', paper_dates[i] or 'NULL', paper_suburl)
+         paper_vols[i] or 'NULL', iss or 'NULL', paper_dates[i] or 'NULL', paper_suburl)
 
         cur.execute(sql_ins)
         conn.commit() 

@@ -28,30 +28,11 @@ conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
                        password="11031103",database="journalcontact",charset="utf8")
 cur = conn.cursor()
 
-if not table_exist('aos'):
-    #build a new table named by the journal title 
-    sql = "create table aos (id int not null unique auto_increment, \
-         title varchar(300), authors varchar(300), au_email varchar(300),\
-         citation varchar(20), volume varchar(20), issue varchar(20), year varchar(20), url varchar(300),\
-         primary key(id))"
-    cur.execute(sql)
 
-headers = {"user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) \
-           AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
-          }
-header = {'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0'}
-
-
-# Get the total number of pages of this journal
-
-#firsturl = 'http://apps.webofknowledge.com/summary.do?product=UA&colName=&qid=1415&SID=8AdkR7zG2CwWT9yxRWs&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page=1'
-#res = requests.get(firsturl,headers=headers)
-#selector = etree.HTML(res.text)
-
-
-pageurlprefix = 'http://apps.webofknowledge.com/'
-pageurlsuffix = '&cacheurlFromRightClick=no'
-# Store the total page number in pagenum
+sql = "select * from email_jour_auth \
+       where locate('0',cn) = 0 and confidence > 50 \
+       group by author \
+       into outfile 'authors.csv'  "
 #pagenum = int(selector.xpath('//*[@id="pageCount.top"]/text()')[0])
 
 """
