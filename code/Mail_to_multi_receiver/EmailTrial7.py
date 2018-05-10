@@ -10,6 +10,7 @@ from email.mime.text import MIMEText
 import os
 import re
 import mysql.connector
+# import csv
 
 def table_exist(tab_name):
     cur.execute('show tables')  # 罗列所有当前库里面的所有表格
@@ -87,9 +88,11 @@ cur = conn.cursor()
 if not table_exist('rec_email'):
     #build a new table named by the journal title 
     sql_new = "create table rec_email (id int not null unique auto_increment, \
-         ---- \
+         ---- \   
          primary key(id))"
+    # Design the table  No. 1
     cur.execute(sql_new)
+    conn.commit()
 
 sql_select = "select * from email_jour_auth3 group by author"
 cur.execute(sql_select)
@@ -98,6 +101,9 @@ info = cur.fetchall()
 for i in range(len(info)):
     modifiedcontent = mailcontent.split('XXX')[0] + info[i][11].split('\'')[1] + mailcontent.split('XXX')[1]
     content = 'Dear' + info[i][1].split('\'')[1]+'\n' + modifiedcontent                         #发送1封，上面的列表是几个人，这个就填几  
+   
+    # Check if the author has been in touched (No. 2)
+                           
     if send_mail(info[i][2].split('\'')[1],mailsub,content):  #邮件主题和邮件内容  
             #这是最好写点中文，如果随便写，可能会被网易当做垃圾邮件退信  
         print("Mail sent to "+info[i][2].split('\'')[1]+' successfully!')  
@@ -105,3 +111,6 @@ for i in range(len(info)):
         print("failed to be received by "+info[i][2].split('\'')[1]+'!')  
     
     sql_ins = "insert ***** into rec_email "
+    # update the table  No. 3
+    cur.execute(sql_ins)
+    conn.commit()
