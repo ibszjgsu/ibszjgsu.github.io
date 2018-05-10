@@ -34,7 +34,7 @@ rec_name.pop(0)
   
 mail_host="smtp.163.com"            #使用的邮箱的smtp服务器地址，这里是163的smtp地址  
 mail_user="xinihe"                           #用户名  
-mail_pass="nh310018"                             #密码  
+mail_pass="****"                             #密码  
 mail_postfix="163.com"                     #邮箱的后缀，网易就是163.com  
 def send_mail(to_list,sub,content):  
     me="Mail from IBS"+"<"+mail_user+"@"+mail_postfix+">"  
