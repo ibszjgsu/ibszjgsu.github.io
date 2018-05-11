@@ -40,7 +40,7 @@ mail_postfix="zjgsu.edu.cn"                     #邮箱的后缀，网易就是1
 
 # 
 def send_mail(to_list,sub,content):  
-    me="International Business School @ Zhejiang Gongshang Univ "+"<"+mail_user+"@"+mail_postfix+">"  
+    me="International Business School in Zhejiang Gongshang Univ "+"<"+mail_user+"@"+mail_postfix+">"  
     msg = MIMEText(content,_subtype='plain')  
     msg['Subject'] = sub  
     msg['From'] = me  
@@ -120,7 +120,8 @@ info = cur.fetchall()
 #=======================
 
 suc = 0
-for i in range(len(info)):
+fails = 0
+for i in range(0,len(info)):
     
     modifiedcontent = mailcontent.split('XXX')[0] + info[i][11].split('\'')[1] + mailcontent.split('XXX')[1]
     content = 'Dear Dr. ' + info[i][1].split('\'')[1]+'\n' + modifiedcontent                         #发送1封，上面的列表是几个人，这个就填几  
@@ -141,7 +142,7 @@ for i in range(len(info)):
             suc = suc + 1
               
         # update the table  No. 3
-            sql_add = "insert into rec_email3(author,email,response,confidence, cn, country, journal, citation, volume, year, title, attemp)values("
+            sql_add = "insert into rec_email3(author,email,response,confidence, cn, country, journal, citation, volume, year, title, attempt)values("
             sql_add+="\"%s\","%info[i][1].split('\'')[1]  # author name
             sql_add+="\"%s\","%info[i][2].split('\'')[1]  # email address
             sql_add+="\"1\","  # Num of attempts
@@ -158,9 +159,10 @@ for i in range(len(info)):
             conn.commit()
         else:  
             print("failed to be received by "+info[i][2].split('\'')[1]+'!')
+            fails = fails + 1
             flog.writelines('failed to be received by '+info[i][2].split('\'')[1]+'!' + '\n')
 # #==============================================================================
-flog.writelines('In total, there is '+ str(suc) + ' messages has been sent successfully! \n')
+flog.writelines('In total, there is '+ str(suc) + ' messages has been sent successfully while ' +str(fails)+ ' messages can not be sent. \n')
 flog.writelines('End at: '+ time.strftime('%H:%M:%S',time.localtime(time.time())) + '\n')
 #send_mail('ibs@zjgsu.edu.cn','Mail Log', flog.read())   
 flog.close()   
