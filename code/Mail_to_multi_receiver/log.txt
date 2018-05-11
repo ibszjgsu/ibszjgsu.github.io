@@ -336,3 +336,58 @@ failed to be received by ouzhao@umich.edu!
 failed to be received by yzhan.g3@uccs.edu!
 In total, there is 47 messages has been sent successfully! 
 End at: 21:37:09
+
+ 
+ Date Updating Log on 2018-05-11
+Start from: 21:54:42
+failed to be received by nikesun@stanford.edu!
+failed to be received by jyin@math.uwise.edu!
+failed to be received by ycchen@caltech.edu!
+failed to be received by fangjunxu@gmail.com!
+failed to be received by xhzheng@ust.hk!
+failed to be received by xiaolu.tan@polytechnique.edu!
+failed to be received by feilu@math.ku.edu!
+failed to be received by jcliu@stat.columbia.edu!
+failed to be received by tusheng.zhang@manchester.ac.uk!
+failed to be received by majing@ust.hk!
+failed to be received by tzhang@maths.manchester.ac.uk!
+failed to be received by dapeng.zhan@yale.edu!
+failed to be received by ouzhao@umich.edu!
+In total, there is 32 messages has been sent successfully while 13 messages can not be sent. 
+End at: 21:54:46
+
+ 
+ Date Updating Log on 2018-05-11
+Start from: 21:56:46
+
+ 
+ Date Updating Log on 2018-05-11
+Start from: 21:59:20
+failed to be received by jyin@math.uwise.edu!
+failed to be received by ycchen@caltech.edu!
+failed to be received by fangjunxu@gmail.com!
+failed to be received by xiaolu.tan@polytechnique.edu!
+failed to be received by feilu@math.ku.edu!
+failed to be received by jcliu@stat.columbia.edu!
+failed to be received by tusheng.zhang@manchester.ac.uk!
+failed to be received by majing@ust.hk!
+failed to be received by tzhang@maths.manchester.ac.uk!
+failed to be received by ouzhao@umich.edu!
+In total, there is 0 messages has been sent successfully while 10 messages can not be sent. 
+End at: 21:59:20
+
+ 
+ Date Updating Log on 2018-05-11
+Start from: 22:11:35
+failed to be received by jyin@math.uwise.edu!
+failed to be received by ycchen@caltech.edu!
+failed to be received by fangjunxu@gmail.com!
+failed to be received by xiaolu.tan@polytechnique.edu!
+failed to be received by feilu@math.ku.edu!
+failed to be received by jcliu@stat.columbia.edu!
+failed to be received by tusheng.zhang@manchester.ac.uk!
+failed to be received by majing@ust.hk!
+failed to be received by tzhang@maths.manchester.ac.uk!
+failed to be received by ouzhao@umich.edu!
+In total, there is 0 messages has been sent successfully while 10 messages can not be sent. 
+End at: 22:11:36

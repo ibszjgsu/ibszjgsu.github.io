@@ -135,6 +135,7 @@ for i in range(0,len(info)):
     sql_find = 'select * from rec_email3 where author=\"%s\"'%now_name
     cur.execute(sql_find)
     cnt = cur.fetchone()
+#    time.sleep(3)#睡眠2秒 
     if(cnt == None):     #若未发送过邮件
         #将该作者信息添加到已发送表格中
         if send_mail(info[i][2].split('\'')[1],mailsub,content):
