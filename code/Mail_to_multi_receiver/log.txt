@@ -391,3 +391,9 @@ failed to be received by tzhang@maths.manchester.ac.uk!
 failed to be received by ouzhao@umich.edu!
 In total, there is 0 messages has been sent successfully while 10 messages can not be sent. 
 End at: 22:11:36
+
+ 
+ Date Updating Log on 2018-05-12
+Start from: 14:42:26
+In total, there is 10 messages has been sent successfully while 0 messages can not be sent. 
+End at: 14:42:28
