@@ -393,6 +393,7 @@ In total, there is 0 messages has been sent successfully while 10 messages can n
 End at: 22:11:36
 
  
+<<<<<<< HEAD
  Date Updating Log on 2018-05-14
 Start from: 11:19:07
 failed to be received by xkzhang@udel.edu!
@@ -1601,3 +1602,9 @@ failed to be received by xshao@illinois.edu!
 failed to be received by ztan@stat.rutgers.edu!
 In total, there is 41 messages has been sent successfully while 145 messages can not be sent. 
 End at: 11:03:06
+=======
+ Date Updating Log on 2018-05-12
+Start from: 14:42:26
+In total, there is 10 messages has been sent successfully while 0 messages can not be sent. 
+End at: 14:42:28
+>>>>>>> f1d91706b06feaf187937072f5d89fe7e7267133

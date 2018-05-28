@@ -28,9 +28,15 @@ conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
                        password="11031103",database="journalcontact",charset="utf8")
 cur = conn.cursor()
 
+<<<<<<< HEAD
 if not table_exist('econometricreviews'):
     #build a new table named by the journal title 
     sql = "create table econometricreviews (id int not null unique auto_increment, \
+=======
+if not table_exist('bernoulli'):
+    #build a new table named by the journal title 
+    sql = "create table bernoulli (id int not null unique auto_increment, \
+>>>>>>> f1d91706b06feaf187937072f5d89fe7e7267133
          title varchar(300), authors varchar(300), au_email varchar(500),\
          citation varchar(20), volume varchar(20), issue varchar(20), year varchar(20), url varchar(300),\
          primary key(id))"
@@ -57,10 +63,18 @@ pageurlsuffix = '&cacheurlFromRightClick=no'
 """
 需要修改
 """
+<<<<<<< HEAD
 pagenum = 22
 pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=725&SID=7ALod42x6iSgCGE4XTF&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
 
 
+=======
+pagenum = 42
+pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=389&SID=5BC66ZVUf6aeUyfPnE4&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
+
+
+
+>>>>>>> f1d91706b06feaf187937072f5d89fe7e7267133
 for pg in range(1,pagenum + 1):
     # Next page URL, being used before the end of this loop
     nexturl = pageurl + str(pg)
@@ -122,7 +136,11 @@ for pg in range(1,pagenum + 1):
         else:
             iss = paper_iss[i]
         # Store the data into Database
+<<<<<<< HEAD
         sql_ins = "insert into econometricreviews (title, authors, au_email, citation, volume, issue, year, url) \
+=======
+        sql_ins = "insert into bernoulli (title, authors, au_email, citation, volume, issue, year, url) \
+>>>>>>> f1d91706b06feaf187937072f5d89fe7e7267133
         values ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" %\
         (paper_titles[i].replace("'","").replace('"',''), paper_auths[i].replace("'","").replace('"',''), paper_email, cites,\
          paper_vols[i] or 'NULL', iss or 'NULL', paper_dates[i] or 'NULL', paper_suburl)
