@@ -72,10 +72,8 @@ pageurlsuffix = '&cacheurlFromRightClick=no'
 # 
 # =======
 #==============================================================================
-pagenum = 42
+pagenum = 102
 pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=2&SID=5AQRl7nmciDJYdFEeU9&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
-
-
 
 for pg in range(1,pagenum + 1):
     # Next page URL, being used before the end of this loop
@@ -139,11 +137,10 @@ for pg in range(1,pagenum + 1):
             iss = paper_iss[i]
         # Store the data into Database
 #==============================================================================
-# <<<<<<< HEAD
 #         sql_ins = "insert into econometricreviews (title, authors, au_email, citation, volume, issue, year, url) \
 # =======
 #==============================================================================
-#  >>>>>>> f1d91706b06feaf187937072f5d89fe7e7267133        
+       
         sql_ins = "insert into statisticsprobabilityletters (title, authors, au_email, citation, volume, issue, year, url) \
         values ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" %\
         (paper_titles[i].replace("'","").replace('"',''), paper_auths[i].replace("'","").replace('"',''), paper_email, cites,\
