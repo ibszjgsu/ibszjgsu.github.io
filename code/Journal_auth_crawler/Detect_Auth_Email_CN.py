@@ -76,7 +76,7 @@ conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
                        password= '11031103',database="journalcontact",charset="utf8")
 cur = conn.cursor()
 
-if not table_exist('email_jour_auth'):
+if not table_exist('email_jour_auth3'):
     sql_create = 'create table email_jour_auth3 (id int unsigned auto_increment primary key, \
         author varchar(50) null, email varchar(50) null, sent int(5) null, \
         confidence int(20) null, cn varchar(20) null, country varchar(20) null,\
@@ -84,7 +84,7 @@ if not table_exist('email_jour_auth'):
         title varchar(200) null, url varchar(200) null)'
     cur.execute(sql_create)
 
-nam_jour = 'aop'
+nam_jour = 'biostatistics'
 sql = "select authors from "+ nam_jour
 cur.execute(sql)
 author_list = cur.fetchall()
@@ -126,7 +126,7 @@ for i in range(1,len(titles)):
         cname = findsurname(str.lower(au_email[0].split(',')[0].split(' ')[-1]))
         
         if not cname == 'NULL' and au_email[1] > 50:
-            sql_ins = 'insert into email_jour_auth (author, email, sent, confidence, cn, country, journal, citation, volume, year, title, url) \
+            sql_ins = 'insert into email_jour_auth3 (author, email, sent, confidence, cn, country, journal, citation, volume, year, title, url) \
             values ("%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s")'
             cont_ins = [au_email[0],em, 0, au_email[1], cname ,country,nam_jour,citations[i][0],vols[i][0], yrs[i][0], titles[i][0], urls[i][0]]
             cur.execute(sql_ins, cont_ins)

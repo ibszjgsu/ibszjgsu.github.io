@@ -28,9 +28,9 @@ conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
                        password="11031103",database="journalcontact",charset="utf8")
 cur = conn.cursor()
 
-if not table_exist('joasa'):
+if not table_exist('econometricreviews'):
     #build a new table named by the journal title 
-    sql = "create table joasa (id int not null unique auto_increment, \
+    sql = "create table econometricreviews (id int not null unique auto_increment, \
          title varchar(300), authors varchar(300), au_email varchar(500),\
          citation varchar(20), volume varchar(20), issue varchar(20), year varchar(20), url varchar(300),\
          primary key(id))"
@@ -57,12 +57,11 @@ pageurlsuffix = '&cacheurlFromRightClick=no'
 """
 需要修改
 """
-pagenum = 48
-pageurl ='http://apps.webofknowledge.com/summary.do?product=UA&colName=&qid=2188&SID=8CSVaV6ZzmFfzIvxbO6&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
+pagenum = 22
+pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=725&SID=7ALod42x6iSgCGE4XTF&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
 
 
-
-for pg in range(38,pagenum + 1):
+for pg in range(1,pagenum + 1):
     # Next page URL, being used before the end of this loop
     nexturl = pageurl + str(pg)
     # Proceeds to next page by using nexturl
@@ -123,7 +122,7 @@ for pg in range(38,pagenum + 1):
         else:
             iss = paper_iss[i]
         # Store the data into Database
-        sql_ins = "insert into joasa (title, authors, au_email, citation, volume, issue, year, url) \
+        sql_ins = "insert into econometricreviews (title, authors, au_email, citation, volume, issue, year, url) \
         values ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" %\
         (paper_titles[i].replace("'","").replace('"',''), paper_auths[i].replace("'","").replace('"',''), paper_email, cites,\
          paper_vols[i] or 'NULL', iss or 'NULL', paper_dates[i] or 'NULL', paper_suburl)
