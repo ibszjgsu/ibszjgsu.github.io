@@ -756,3 +756,65 @@ Start from: 15:19:04
 In total, there is 3 messages has been sent successfully while 0 messages can not be sent. 
 End at: 15:19:17
 >>>>>>> 548232a1e1853788ac85fe1864042e06a0fff738
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 16:56:41
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 20:38:27
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 20:45:47
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 20:46:18
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 20:59:16
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 21:00:13
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 21:02:28
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 21:17:47
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 21:29:33
+failed to be received by pengdingpku@berkeley.edu!
+failed to be received by wenlin.dai@kaust.edu.sa!
+In total, there is 1 messages has been sent successfully while 2 messages can not be sent. 
+End at: 21:30:58
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 21:32:01
+In total, there is 3 messages has been sent successfully while 0 messages can not be sent. 
+End at: 21:32:25
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 21:37:32
+failed to be received by zhanghao@purdue.edu!
+failed to be received by zli@gwu.edu!
+In total, there is 18 messages has been sent successfully while 2 messages can not be sent. 
+End at: 21:38:47
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 21:58:47
+failed to be received by zhanghao@purdue.edu!
+failed to be received by zli@gwu.edu!
+In total, there is 0 messages has been sent successfully while 2 messages can not be sent. 
+End at: 21:59:45
