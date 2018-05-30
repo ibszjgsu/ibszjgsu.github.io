@@ -397,3 +397,31 @@ End at: 22:11:36
 Start from: 14:42:26
 In total, there is 10 messages has been sent successfully while 0 messages can not be sent. 
 End at: 14:42:28
+
+ 
+ Date Updating Log on 2018-05-28
+Start from: 11:38:35
+In total, there is 3 messages has been sent successfully while 0 messages can not be sent. 
+End at: 11:38:36
+
+ 
+ Date Updating Log on 2018-05-28
+Start from: 14:38:42
+In total, there is 3 messages has been sent successfully while 0 messages can not be sent. 
+End at: 14:38:51
+
+ 
+ Date Updating Log on 2018-05-28
+Start from: 14:42:15
+In total, there is 3 messages has been sent successfully while 0 messages can not be sent. 
+End at: 14:42:26
+
+ 
+ Date Updating Log on 2018-05-28
+Start from: 15:17:24
+
+ 
+ Date Updating Log on 2018-05-28
+Start from: 15:19:04
+In total, there is 3 messages has been sent successfully while 0 messages can not be sent. 
+End at: 15:19:17
