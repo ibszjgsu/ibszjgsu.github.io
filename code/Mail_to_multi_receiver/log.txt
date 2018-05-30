@@ -1608,3 +1608,176 @@ Start from: 14:42:26
 In total, there is 10 messages has been sent successfully while 0 messages can not be sent. 
 End at: 14:42:28
 >>>>>>> f1d91706b06feaf187937072f5d89fe7e7267133
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 08:37:15
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 08:40:25
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 08:41:47
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 08:42:09
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 08:49:55
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 08:52:47
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 09:13:32
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 09:23:23
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 13:32:23
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 13:44:12
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 13:48:59
+
+ 
+ Date Updating Log on 2018-05-30
+Start from: 13:50:33
+failed to be received by yili@umich.edu!
+failed to be received by fanghan@uw.edu!
+failed to be received by shizhe.chen@gmail.com!
+failed to be received by ylin@sta.cuhk.edu.hk!
+failed to be received by yluoac@ust.hk!
+failed to be received by qlu@epi.msu.edu!
+failed to be received by zhou@stat.ucla.edu!
+failed to be received by seunghyun@ucla.edu!
+failed to be received by pengdingpku@berkeley.edu!
+failed to be received by huangc12@cf.ac.uk!
+failed to be received by haojieren@gmail.com!
+failed to be received by isecn@nus.edu.sg!
+failed to be received by sixia-chen@ouhsc.edu!
+failed to be received by xiaoqian1990v@gmail.com!
+failed to be received by wei.luo@baruch.cuny.edu!
+failed to be received by hzhang@math.arizona.edu!
+failed to be received by ychen123@upenn.edu!
+failed to be received by jning@mdanderson.org!
+failed to be received by syang24@ncsu.edu!
+failed to be received by J.J.Cai@tudelft.nl!
+failed to be received by wei.luo@baruch.cuny.edu!
+failed to be received by sjguo@ruc.edu.cn!
+failed to be received by xyy@stt.msu.edu!
+failed to be received by hongyu.zhao@yale.edu!
+failed to be received by aini01@gmail.com!
+failed to be received by cai@bios.unc.edu!
+failed to be received by zhihuasu@stat.ufl.edu!
+failed to be received by gzhu22@ufl.edu!
+failed to be received by peisonghan@uwaterloo.ca!
+failed to be received by shuyang@hsph.harvard.edu!
+failed to be received by lmao@live.unc.edu!
+failed to be received by zhouyan@umich.edu!
+failed to be received by lizhen.lin@austin.utexas.edu!
+failed to be received by ShuChing.Chang@providence.org!
+failed to be received by kongdehanstat@gmail.com!
+failed to be received by kelinxu12@fudan.edu.cn!
+failed to be received by wguo@mail.med.upenn.edu!
+failed to be received by momiao.xiong@uth.tmc.edu!
+failed to be received by zhu.liping@mail.shufe.edu.cn!
+failed to be received by lijin@fudan.edu.cn!
+failed to be received by wenge.guo@njit.edu!
+failed to be received by shuyang@hsph.harvard.edu!
+failed to be received by ming-hui.chen@uconn.edu!
+failed to be received by liangbs@mail.bnu.edu.cn!
+failed to be received by dzeng@bios.unc.edu!
+failed to be received by pei.wang@mssm.edu!
+failed to be received by boyd.guan@gmail.com!
+failed to be received by sunj@missouri.edu!
+failed to be received by xinyu@amss.ac.cn!
+failed to be received by fyao@utstat.toronto.edu!
+failed to be received by wu@stat.ncsu.edu!
+failed to be received by xupeirong@seu.edu.cn!
+failed to be received by szchen@uw.edu!
+failed to be received by qwang3@vcu.edu!
+failed to be received by shao@stat.wisc.edu!
+failed to be received by jiezhang@stat.wisc.edu!
+failed to be received by keliliu@stanford.edu!
+failed to be received by lcai@ucla.edu!
+failed to be received by wangz@stat.wisc.edu!
+failed to be received by hqian@u.washington.edu!
+failed to be received by qyang1@e.ntu.edu.sg!
+failed to be received by fanghan@uw.edu!
+failed to be received by sheng.xu@yale.edu!
+failed to be received by aihuaxia@unimelb.edu.au!
+failed to be received by qiujinn@gmail.com!
+failed to be received by zhou@ese.eur.nl!
+failed to be received by hanxpeng@iupui.edu!
+failed to be received by feitan@iupui.edu!
+failed to be received by boxint@sfu.ca!
+failed to be received by jianwang@fjnu.edu.cn!
+failed to be received by yuzhenzhou@unl.edu!
+failed to be received by yi.zhang@liv.ac.uk!
+failed to be received by jchen@math.tsinghua.edu.cn!
+failed to be received by jiansiqifrank@163.com!
+failed to be received by zhengc1@student.unimelb.edu.au!
+failed to be received by zhangz19@galton.uchicago.edu!
+failed to be received by lins@i2r.a-star.edu.sg!
+failed to be received by fhan@jhu.edu!
+failed to be received by tlzhang@purdue.edu!
+failed to be received by ge.kan@unlv.edu!
+failed to be received by jhow@nuk.edu.tw!
+failed to be received by hchuang@stat.sinica.edu.tw!
+failed to be received by bin.li@uwaterloo.ca!
+failed to be received by hzhang@stat.columbia.edu!
+failed to be received by yinghui@math.columbia.edu!
+failed to be received by jianhaibao13@gmail.com!
+failed to be received by gyin@math.wayne.edu!
+failed to be received by C.Yuan@swansea.ac.uk!
+failed to be received by minwang@mtu.edu!
+failed to be received by Yuguang.Fan@unimelb.edu.au!
+failed to be received by guomh@math.nsysu.edu.tw!
+failed to be received by zhou@alcor.concordia.ca!
+failed to be received by jianwang@fjnu.edu.cn!
+failed to be received by zhaojunlong928@126.com!
+failed to be received by hxiao@stat.rutgers.edu!
+failed to be received by wshen@mdanderson.org!
+failed to be received by y.liu2@kurenai.waseda.jp!
+failed to be received by carsten.chong@tum.de!
+failed to be received by jieyen.fan@monash.edu!
+failed to be received by zudilu@gmail.com!
+failed to be received by yfeng@google.com!
+failed to be received by ztan@stat.rutgers.edu!
+failed to be received by 'ztan@stat.rutgers.edu'!
+failed to be received by 'wenlin.dai@kaust.edu.sa'!
+failed to be received by 'tongt@hkbu.edu.hk'!
+failed to be received by 'lzhu@hkbu.edu.hk'!
+failed to be received by 'jhchen@stat.ubc.ca'!
+failed to be received by 'yueniu@math.arizona.edu'!
+failed to be received by 'nhao@math.arizona.edu'!
+failed to be received by 'heping.zhang@yale.edu'!
+failed to be received by 'myang2@uic.edu'!
+failed to be received by 'yzwang@stat.wisc.edu'!
+failed to be received by 'shangwu@stat.wisc.edu'!
+failed to be received by 'jzou@wpi.edu'!
+failed to be received by 'shuyang@hsph.harvard.com'!
+failed to be received by 'hao.chen@stat.ubc.ca'!
+failed to be received by 'jingshuw@stanford.edu'!
+failed to be received by 'wang@uwaterloo.ca'!
+failed to be received by 'axiang@post.harvard.edu'!
+failed to be received by 'joseph-lang@uiowa.edu'!
+failed to be received by 'zhanghao@purdue.edu'!
+failed to be received by 'zli@gwu.edu'!
+failed to be received by 'jiahsun@stat.cmu.edu'!
+In total, there is 29 messages has been sent successfully while 123 messages can not be sent. 
+End at: 13:50:39
