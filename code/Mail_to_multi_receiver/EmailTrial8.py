@@ -138,6 +138,7 @@ for i in range(0,len(info)):
 #    time.sleep(3)#睡眠2秒 
     if(cnt == None):     #若未发送过邮件
         #将该作者信息添加到已发送表格中
+        time.sleep(5)  #间隔3秒
         if send_mail(info[i][2].split('\'')[1],mailsub,content):
             print("Mail sent to "+info[i][2].split('\'')[1]+' successfully!')
             suc = suc + 1
