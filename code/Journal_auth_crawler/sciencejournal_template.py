@@ -35,9 +35,9 @@ cur = conn.cursor()
 #     sql = "create table econometricreviews (id int not null unique auto_increment, \
 # =======
 #==============================================================================
-if not table_exist('journalofappliedstatistics'):
+if not table_exist('ijgt'):
     #build a new table named by the journal title 
-    sql = "create table journalofappliedstatistics (id int not null unique auto_increment, \
+    sql = "create table ijgt (id int not null unique auto_increment, \
          title varchar(300), authors varchar(300), au_email varchar(500),\
          citation varchar(20), volume varchar(20), issue varchar(20), year varchar(20), url varchar(300),\
          primary key(id))"
@@ -72,12 +72,12 @@ pageurlsuffix = '&cacheurlFromRightClick=no'
 # 
 # =======
 #==============================================================================
-pagenum = 66
-pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=2&SID=5CQM3rIhIKi1FWpqc5M&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
+pagenum = 17
+pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=1918&SID=7CBEv99zxNizDc45VJs&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
 
 
 
-for pg in range(34,pagenum + 1):
+for pg in range(1,pagenum + 1):
     # Next page URL, being used before the end of this loop
     nexturl = pageurl + str(pg)
     # Proceeds to next page by using nexturl
@@ -144,7 +144,7 @@ for pg in range(34,pagenum + 1):
 # =======
 #==============================================================================
 #  >>>>>>> f1d91706b06feaf187937072f5d89fe7e7267133        
-        sql_ins = "insert into journalofappliedstatistics (title, authors, au_email, citation, volume, issue, year, url) \
+        sql_ins = "insert into ijgt (title, authors, au_email, citation, volume, issue, year, url) \
         values ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" %\
         (paper_titles[i].replace("'","").replace('"',''), paper_auths[i].replace("'","").replace('"',''), paper_email, cites,\
          paper_vols[i] or 'NULL', iss or 'NULL', paper_dates[i] or 'NULL', paper_suburl)
