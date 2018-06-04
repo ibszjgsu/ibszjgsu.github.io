@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 30 23:15:52 2018
 
-@author: Administrator
+@author: NI He
 """
 
 import smtplib  
@@ -101,7 +101,7 @@ mailto_list = []
 rec_name = []
 rec_univ = []
 rec_major = []
-f = csv.reader(open(os.getcwd()+'\\namelist.csv')) # 读取收件人 邮箱和姓名信息
+f = csv.reader(open(os.getcwd()+'\\phdlist.csv')) # 读取收件人 邮箱和姓名信息
 for rows in f:
     mailto_list.append(rows[1])
     rec_name.append(rows[0])
@@ -144,7 +144,7 @@ for i in range(len(rec_name)):
 #    cur.execute(sql_find, (receiver, receiver))
     cur.execute(sql_find)
     cnt = cur.fetchone()
-    time.sleep(3)#睡眠2秒 
+    time.sleep(10)#睡眠2秒 
     if(cnt == None):     #若未发送过邮件
         #将该作者信息添加到已发送表格中
         if send_mail(mailto_list[i],mailsub,content):

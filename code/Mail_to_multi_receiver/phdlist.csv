@@ -1,372 +1,51 @@
-Name,Email,Gender,Age,Country,University for phD,Major for doctor,
-Xuexin Wei,xw2481@columbia.edu,,,,Columbia University in the City of New York,"Postdocs, Statistics Department",
-Dong Xia,dx2170@columbia.DOT.edu,male,,,Columbia University in the City of New York,"Postdocs, Statistics Department",
-Xueying Tang,xt2197@columbia.edu,,,,Columbia University in the City of New York,"Postdocs, Statistics Department",
-Pengchen Zhou,pz2230@columbia.edu,,,,Columbia University in the City of New York,"Postdocs, Statistics Department",
-Rong Zhu,rz2425@columbia.edu,,,,Columbia University in the City of New York,"Postdocs, Statistics Department",
-Jingjing Zou,jingjing@stat.columbia.edu,female,,,Columbia University in the City of New York,"Postdocs, Statistics Department",
-Xinyi Deng,xd2188@columbia.edu,,,,Columbia University in the City of New York,"Postdocs, Statistics Department",
-Ed Cheng,cheng@stat.columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Chi Wing Chu,cc4160@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Guanhua Fang,gf2340@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Fan Gao,gao.fan@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Cuize Han,ch3311@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Yayun Hsu,yh2692@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Sihan Huang,sh3453@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Jin Hyung Lee,jl4303@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Tong Li,tl2794@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Hok Kan Ling,hl2902@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Feihan Lu,fl2238@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Chengliang Tang,ct2747@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Phyllis Wan,phyllis@stat.columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Shuaiwen Wang,w2853@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Shulei Wang,sw3229@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Yixin Wang,yw2539@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Zhi Wang,zw2393@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Jing Wu,jw3233@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Shun Xu,sx2220@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Yuanzhe Xu,yuanzhe.xu@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Yuling Yao,yy2619@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Chaoyu Yuan,cy2438@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Ding Zhou,dz2336@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Wenda Zhou,wz2335@columbia.edu,,,,Columbia University in the City of New York,"Ph.D. Students, Statistics Department",
-Tuo Chen,tuo.chen@columbia.edu,male,,,"Department of Economics, Columbia University",,
-TONG GENG,tong.geng@columbia.edu,male,,,"Department of Economics, Columbia University",the effects of school organization and education policies on human capital production,
-Chengcheng Jia,chengcheng.jia@columbia.edu,female,,,"Department of Economics, Columbia University",,
-Yang Jiao,yang.jiao@columbia.edu,male,,,"Department of Economics, Columbia University",International Finance Macro and International Trade,
-Lin Tian,lin.tian@columbia.edu,female,,,"Department of Economics, Columbia University","International Trade, Economic Geography and Urban Economics",
-Xingye Wu,xingye.wu@columbia.edu,male,,,"Department of Economics, Columbia University","Mechanism Design, Matching Theory",
-Jing Zhou,j.zhou@columbia.edu,female,,,"Department of Economics, Columbia University","Macroeconomics,International Finance,Financial Economics ",
-Hao Dong,h.dong4@lse.ac.uk,male,,,LSE,"Econometrics (primary)
-Applied Econometrics (secondary)",
-Jiajia Gu,j.gu1@lse.ac.uk,female,,,LSE,"Macro (primary)
-Development and Growth (secondary)",
-Hanwei Huang,h.huang7@lse.ac.uk,male,,,LSE,"International Trade (primary)
-Economic Development, Economic History (secondary)",
-Yi Chen ,y.chen@yale.edu,male,,china,Department of Economics£¨Yale University,Dynamic Mechanism Design£¨Game Theory £¨Information Economics  ,
-Lezhen Wu,lezhen.wu@yale.edu,female,,china,Department of Economics£¨Yale University,"International economics,Trade policy,Macroeconomics",
-Mingxuan Fan,mfan6@wisc.edu,female,,china ,University of Wisconsin-Madison Department of Agricultural and Applied Economics,Environmental and Resource Economics,
-Xi Wang,wang.xi@wustl.edu,male,,china ,"Washington University, St. Louis","Empirical Asset Pricing, Monetary and Quantitative Economics, Applied Econometrics",
-Yinghong Zhang,yinghongzhang@wustl.edu,female,,china ,"Washington University, St. Louis"," Labor, Applied Microeconomics, Applied Econometrics",
-Lijun Zhu,lijun.zhu@wustl.edu,male ,,china ,"Washington University, St. Louis",Macroeconomics,
-,,,,,,,
-Yang Fan,yfan@uw.edu,male,,china ,University of Washington,"Financial Economics, Corporate Finance, Microeconometrics",
-Ken C. Ho,h89@uw.edu,male,,china ,University of Washington,"Matching Theory, Microeconomics Theory, Game Theory, Mechanism Design",
-Shih-Tang Hwu,hwus@uw.edu,male,,china ,University of Washington,"Econometrics, Applied Time Series, Empirical Macroeconomics",
-"LEI, WENG CHI ",yuizake@uw.edu,female,,china ,University of Washington,"Primary: International Trade, International Factor Movements and International Business
-Secondary: International Finance, Market Structure, Firm Strategy, and Market Performance",
-BOHAN LI,bli296@uwo.ca,,,China,University of Western Ontario,"Financial economics, macroeconomics",
-Haihan Yu,haihan.yu@ua.es,male,,China,Southwestern University of Finance and Economics,"Experimental Economics, Microeconomics, Social Learning, Strategic Information Transmission",
-Minjie Huang,mhuang32@binghamton.edu,female,,,Department of Economics£¨ Binghamton University,"Applied Microeconomics, Agent-bsed Modeling, Industrial Organization",
-Huiting Tian,htian1@binghamton.edu,female,,,Department of Economics£¨ Binghamton University," Applied Econometrics, Applied Microeconomics, Environmental Economics, Financial Economics ",
-Haihan Yu,haihan.yu@ua.es,male,,China,Southwestern University of Finance and Economics,"Experimental Economics, Microeconomics, Social Learning, Strategic Information Transmission",
-Adam Telek,telek@ua.es,male,,Hungary,E?tv?s Lor®¢nd University (ELTECON)¬ﬁ¿º¥Û—ß,"Political Economy, Social Networks, Applied Microeconomics",
-Michael Cauvel,mc1465a@student.american.edu,male,,America,American University,"Macroeconomics, inequality, open economy macroeconomics, political economy",
-MATTHEW VAN DEN BERG ,matt.david.vandenberg@gmail.com,male,,,American University,"Applied microeconomics, political economy, public economics, and history of economic thought",
-Andrew Verdon,averdon1@binghamton.edu,,,,Department of Economics£¨ Binghamton University,"Solomon Polachek (Chair), Mingmei  Jones, David Slichter",
-Minjie Huang,mhuang32@binghamton.edu,female,,,Department of Economics£¨ Binghamton University,"Applied Microeconomics, Agent-bsed Modeling, Industrial Organization",
-Leila Salarpour Goodarzi,lsalarp1@binghamton.edu,female,,,Department of Economics£¨ Binghamton University,"Laboor Economics, Development Economics, Applied Micro Economics",
-Binish Rijal,brijal1@binghamton.edu,,,,Department of Economics£¨ Binghamton University,"Applied Microeconomics, Environmental Economics, Development Economics",
-Huiting Tian,htian1@binghamton.edu,female,,,Department of Economics£¨ Binghamton University," Applied Econometrics, Applied Microeconomics, Environmental Economics, Financial Economics ",
-Agnitra Roy Choudhury,aroycho1@binghamton.edu,,,,Department of Economics£¨ Binghamton University,"Health Economics, Labor Market Decisions, Gender ",
-Shivi Kalra,skalra1@binghamton.edu,female,,,Department of Economics£¨Binghamton University,"Macroeconomics, Econometrics",
-DONG (CARL) CHENG,dong.cheng@vanderbilt.edu,male,,,Department of Economics Vanderbilt University,"Primary: Macroeconomics, International Economics ? Secondary: Applied Econometrics, Real Estate Economics, Chinese Economy",
-Jonah J.H. Yuen,jonah.j.yuen@vanderbilt.edu,male,,,"Vanderbilt University, Department of Economics",Primary: Macroeconomics and Monetary Economics Secondary: Industrial Organization,
-Chen He,c.he@uvt.nl,male,,,"Department of Econometrics and OR,Tilburg University","empirical industrial organization, structural econometrics, applied microeconomics, quantitative marketing",
-Chen Sun ,C.Sun@tilburguniversity.edu,male,,,"Department of Economics,Tilburg University","Behavioral and Experimental Economics,Microeconometrics, Microeconomic Theory",
-Yifan Yu,y.yu_1@tilburguniversity.edu,,,,"Department of Economics,Tilburg University","Econometrics, Duration analysis,Labor economics, Industrial Organization",
-Kun Zheng,k.zheng@uvt.nl,male,,,"Department of Econometrics and Operations,Tilburg University and CentER","Microeconometrics,Duration analysis,Labour economics",
-Haikun Zhu,h.zhu@tilburguniversity.edu,male,,,"Department of Finance,Tilburg University and CentER","Financial intermediation,Political economy of finance,FinTech",
-Kwang Soo Kim,kwangsoo.kim@utdallas.edu,male,,,"Department of Economics,School of Economic, Political and Policy Sciences,The University of Texas at Dallas","International Finance, International Macroeconomics,and Applied Econometrics.",
-Xia Si,xia.si@utdallas.edu,male,,,"Department of Economics,The University of Texas at Dallas ",Econometrics Research Methods Labor Economics Public Economics Microeconomics Macroeconomics Chinese Economy,
-Shuo Yang,shuo.yang@utdallas.edu,male,,,Economics Department at The University of Texas at Dallas,"Experimental Economics, Behavioral Economics, Health Economics,?Public Economics,?and Applied Econometrics",
-Zeyu Zhang,zeyu.zhang@utdallas.edu,male,,,"School of Economic, Political and Policy Sciences | University of Texas at Dallas","Applied Microeconomics, Economic Demography, Labor Economics, Health Economics",
-Ye (Abby) Hong,yhong3@vols.utk.edu,female,,,"Department of Economics,Haslam College of Business,University of Tennessee","Microeconomic Theory, the Economics of Crime, Industrial Organization, Behavioral Economics",
-David Yang Song,davidsong26@gmail.com,,,,"Temple University, Department of Economics?","Development Economics, International Economics, Macroeconometrics",
-Wancong Fu,wafu@syr.edu,male,,,Syracuse University?,"Econometrics, Computational Economics, and Labor Economics.",
-LING LI,lli37@syr.edu,female,,,Syracuse University?,"Public Economics, Labor Economics, Health Economics",
-Boqian Jiang,bjiang03@syr.edu,male,,,Syracuse University?,"Urban Economies, Public Economies, Labor Economies",
-YANG LIANG,yliang21@syr.edu,male,,,Syracuse University?,"International Trade, Labor Economics, Applied Microeconomics",
-Jindong Pang,jipang@syr.edu,male,,,Syracuse University?,"Urban, Transportation, and Labor Economics",
-Shulin Shen,sshen06@syr.edu,female,,,Syracuse University?,"Real Estate Economics, Econometrics, and?Financial Econometrics",
-Ying Liu,ying.liu@sfi.ch?,female,,China,University of Lausanne?and?Swiss Finance Institute.,"Shadow Banking, Market Microstructure, Over-the-Counter Markets, Asymmetric Information",
-MARK SANCTUARY,mark.sanctuary@hhs.se,male,,,Stockholm School of Economics?,"International trade,environmental economics and applied economics",
-Jianbo Luo,jianbolu@buffalo.edu,,,,State University of New York at Buffalo?,"Labor Economics, Behavioral Economics, Public Economics, Applied Microeconomics",
-Nguyen Ngo,nguyenng@buffalo.edu,male,,,State University of New York at Buffalo?,"Labor Economics, Public Policy, Industrial Organization, and Applied Microeconomics",
-Trung Nguyen,trungn@stanford.edu,female,,,"Stanford University, Graduate School of Business?","Financial accounting,Financial misconduct and fraud, Corporate governance, Financial disclosure",
-Christina Zhu,czhu@stanford.edu,female,,,"Stanford University, Graduate School of Business?","Price Efficiency and Corporate Governance,Capital Markets,Executive Compensation",
-Shannon Liu,xningliu@stanford.edu,female,,,"Stanford University, Graduate School of Business?","Entrepreneurship,Entrepreneurial Finance,Personnel Economics,Applied Microeconomics",
-Zhengyang Jiang,jzy@stanford.edu,male,,,"Stanford University, Graduate School of Business?","International Finance,Asset Pricing",
-Yiming Ma,yimingma@stanford.edu,female,,,"Stanford University, Graduate School of Business?","Financial Intermediation,Interbank Markets,Financial Stability,Monetary Policy",
-Yang Song,songy@stanford.edu,male,,,"Stanford University, Graduate School of Business?",Asset pricing; Active asset management; Financial Intermediation; Over-the-counter markets; Financial econometrics,
-Justin T. Huang,jthuang@stanford.edu,male,,,"Stanford University, Graduate School of Business?","Platform Design, Pricing Dynamics, Social Networks, and e-Commerce",
-Shota Ichihashi,shota2@stanford.edu,male,,,"Stanford University,Department of Economics","Microeconomic Theory,Economics of the Internet",
-Yichen Su,suyichen@stanford.edu,male,,,"Stanford University,Department of Economics","Urban Economics, Labor Economics,Public Economics",
-LIWEN CHEN,mail: chen267@email.sc.edu,female,,,"University of South Carolina, Moore School of Business","Applied Microeconomics, Labor Economics, Development Economics, Experimental Economics",
-Xinming Li,xinming.li@grad.moore.sc.edu,male,,,"University of South Carolina, Moore School of Business","Banking and Financial Institutions, Corporate Finance, International Finance",
-Yafei Zhang,Yafei.Zhang@grad.moore.sc.edu,male,,,"University of South Carolina, Moore School of Business",Initial Public Offerings; Investment Banking;Venture Capital,
-"Jiawei""Brooke"" Wang",Jiawei.wang@grad.moore.sc.edu,female,,,"University of South Carolina, Moore School of Business","Theoretical   and   Empirical Corporate   Finance: Corporate Innovation, Investments,IPOs, Analysts, Executive Compensation,Institutional Investors, Payout Policies and M&As",
-"Choi, Jieun",jichoi@economics.rutgers.edu,female,,,"Economics, Rutgers University","Economics of Education, Labor Economics, Applied Microeconomics, Public Policy",
-"Jiang, Yixiao",yixiao@economics.rutgers.edu,male,,,"Economics, Rutgers University","Financial  Economics,  Nonparametric  and  Semiparametric  Methods,  Information  and  Market Efficiency,Microeconometrics",
-"Lee, Sungkyung",sungkyung.lee@rutgers.edu,female,,,"Economics, Rutgers University","Macroeconometrics, Forecasting, Bayesian Econometrics",
-Hao Teng,haoteng@rochester.edu,female,,,"University of Rochester,Department of Economics","Applied microeconomics, Social Networks, Causal Inference, Big Data, Labor Economics",
-Dong (Daisy) Ding,dd21@rice.edu,female,,,Rice University,"Applied Econometrics, Financial Economics",
-"Wei, Jianxing",jianxing.wei@upf.edu,male,,,Universitat Pompeu Fabra,"Banking, Corporate Finance, Corporate Governance",
-"Zhang, Donghai",donghai.zhang@upf.edu,male,,,Universitat Pompeu Fabra,"Primary Fields: Macroeconomics, Monetary Economics, Time Series Econometrics.Secondary Fields: Financial Economics, Asset Pricing",
-Yimei Zou,yimei.zou@upf.edu,female,,,Universitat Pompeu Fabra,International Economics. Macroeconomics.,
-Hao Feng,haf26@pitt.edu,male,,,University of Pittsburgh,"Environmental Economics, Public Economics, Urban Economics",
-Bo Bian,bub186@psu.edu,,,,The Pennsylvania State University,Industrial Organization & Applied Econometrics,
-Jianpeng Deng,jud222@psu.edu,,,,The Pennsylvania State University,International Trade,
-Gunhaeng Lee,gxl189@psu.edu,,,,The Pennsylvania State University,Microeconomic Theory & Public Economics,
-Xian Li,xxl155@psu.edu,,,,The Pennsylvania State University,Econometrics & Industrial Organization,
-Wenjing Ruan,wur114@psu.edu,,,,The Pennsylvania State University,Industrial Organization,
-Hongxun Ruan,hongxunr@wharton.upenn.edu,,,,"The Wharton School, Finance Department, University of Pennsylvania","Empirical Corporate Finance, Institutional Investors, Innovation, Industrial Organization, Investment",
-JEEHOON HAN,jhan4@nd.edu,male,,,University of Notre Dame,public economics and labor economics.,
-Hao Sun,hao.sun@northwestern.edu,,,,"Finance Department,Kellogg School of Management,Northwestern University","Financial Economics,Contract Theory, Financial Crisis, OTC Derivatives, Counterparty Risk",
-LINYI ZHANG,inyi-zhang@kellogg.northwestern.edu,,,,"Kellogg School of Management,Northwestern University ","Economics of Innovation, Chinese Economy",
-Zhiji (Richard) Xu,zhiji-xu@kellogg.northwestern.edu,,,,"Northwestern University, Kellogg School of Management","dvanced analytics, statistical modeling, data visualization, operations-marketing interface",
-Meng Xu,mengxu1219@gmail.com,Female,,China,University of California at Los Angeles,"Economic History, Trade, Regional economics, and Applied Microeconomics",
-Yizhi (Francisco) Xu,xu129@ucla.edu,Male,,,University of California at Los Angeles,"Primary: Macroeconomics, Financial Institutions, and International FinanceSecondary: Financial Economics and Fiscal Policy",
-XUAN DING,x3ding@ucsd.edu,Female,,,"University of California, San Diego","Primary Fields: Game Theory, Industrial Organization Secondary Fields: Finance",
-CHEN LIU,chl110@ucsd.edu,Male,,,"University of California, San Diego","Primary Fields: International Economics, Labor Economics Secondary Fields: Applied Econometrics, Urban and Regional Economies",
-Zhenting Sun,zhs004@ucsd.edu,Male,,,"University of California, San Diego",Microeconometrics and Econometric Theory,
-Xiaxin Wang,xiaxinwang@ucsd.edu,Male,,,"University of California, San Diego","Primary Fields: Public Finance, Taxation
-Secondary Fields: Labor Economics, Applied Microeconomics, Development Economics",
-Íê ≤Æ Ë§,boyu.chen@email.ucr.edu,Male,,,"University of California, Riverside ","Macroeconomics, International Financial, International Economics, Time-Series Econometrics",
-Sungjun Huh,sungjun.huh@email.ucr.edu,Male,,,"University of California, Riverside ","Macro-Finance, Macroeconomics, Housing Economics, Monetary Economics, Time Series Econometrics",
-He Wang,he.wang001@email.ucr.edu,Female,,,"University of California, Riverside ","Econometric Theory
-Applied Econometrics
-Financial Risk Analysis based on quantiles, expectiles, expected shortfalls. ",
-Hao Xu,hao.xu@email.ucr.edu,Female,,,"University of California, Riverside ","Econometrics, Applied Econometrics,
-Machine Learning, High Dimensional Statistics, Big Data, Business Analytics",
-Ruochen Wu,rw495@cam.ac.uk,Male,,,"University of Cambridge, UK ","Primary fields: Bayesian Methods, Applied Econometrics Secondary fields: Environmental Economics",
-CHEN WANG,cw622@cam.ac.uk,Male,,,"University of Cambridge, UK ","Econometrics, Applied Econometrics, Large Dimensional Statistical Inference",
-Jaeyoon Lee,jaeyoonlee@uchicago.edu,Male,,,"University of Chicago, Department of Economics ","Household Finance, Banking and Financial Institutions,?and Health Economics",
-QI LI,qili@uchicago.edu,Female,,,"University of Chicago, Department of Economics ","Primary fields: Macroeconomics and Monetary Economics, Financial Economics
-Secondary fields: Industrial Organization, Labor and Demographic Economics",
-QITIAN REN,qren17@gsb.columbia.edu,Male,,,"Columbia University, Graduate School of Business ",Incorporating Behavioral Phenomena in Analytical Models ? Consumer Information Processing and Firm Information Design ? Competitive Strategy,
-Nancy Ran Xu,RXu17@gsb.columbia.edu,Female,,,"Columbia University, Graduate School of Business ","Asset Pricing, Financial Econometrics",
-Lawrence Jin,ljj9@cornell.edu,Male,,,"Cornell University, Field of Economics ","Primary: Behavioral Economics, Health Economics
-Secondary: Experimental Economics, Public Policy",
-Zhenping Wang,zhenping.wang@emory.edu,Female,,,Emory University,"Empirical asset pricing Stock return anomalies, options, earnings, big data method",
-JIAN CAO,jc14ag@my.fsu.edu,Male,,,Florida State University ,"Large Data Analysis, Mul?ple Imputa?on, Markov Chain Monte Carlo, Machine Learning, Financial Economics.",
-Dongbo Guo,dg737@georgetown.edu????,Male,,,Georgetown University ,"Primary fields: Econometrics, Computational Economics
-Secondary fields: Artificial Intelligence, Applied Microeconomics",
-Shuwen Li,sli13@masonlive.gmu.edu,Female,,,George Mason University ,"Primary Fields:  Applied Microeconomics, Experimental Economics
-Secondary Fields: Public Economics, Development Economics",
-(Susan) Xu Tang,xtang4@gsu.edu,Female,,,Georgia State University ,"Public Economics, Environmental Economics, Experimental Economics, Urban Economics",
-Kyu Bong Cho,kyubong2@illinois.edu,Male,,,,"FinancialEconomics, Banking, Industrial Organization",
-Rui Fan,ruifan2@illinois.edu / fanr09@gmail.com,Female,,,"The University of Illinois, Department of Economics?","Primary fields: Econometric Theory, Applied Econometrics, Financial Econometrics
- Secondary fields: Empirical Finance, Development Economics",
-Sen Ma,senma2@illinois.edu,Male,,,"The University of Illinois, Department of Economics?","Primary: Development, International
-Secondary: Labor, Demography, Environment",
-Hui Wen,huiwen1@illinois.edu,Female,,,"The University of Illinois, Department of Economics?","Environmental, Resource, and Energy Economics, Industry Organization, Corporate Social Responsibility",
-Eric Y. Zou,yzou9@illinois.edu,Male,,,"The University of Illinois, Department of Economics?","Environmental Economics, Health Economics",
-Chen Meng,cmeng5@uic.edu,Female,,,The University of Illinois at Chicago?,"Applied Microeconometrics, Education and Labor Economics, Health Economics",
-Anh Ngo,ango4@uic.edu,Female,,,The University of Illinois at Chicago?,"?Health Economics, Labor Economics, Demographic Economics, Applied Econometrics",
-Weixiang (Victor) Pan,wpan5@uic.edu,Male,,,The University of Illinois at Chicago?,"?Labor Economics, Economics of Education, Applied Econometrics",
-Xuening Wang,xuening2@uic.edu,Female,,,The University of Illinois at Chicago?,"?Labor Economics, Economics of Education, Applied Econometrics",
-Yuanrong Xu,yxu49@uic.edu,Male,,,The University of Illinois at Chicago?,"?Labor Economics, Health Economics, Applied Microeconomics",
-ZENING LI,zli54@illinois.edu,Female,,,The University of Illinois at Urbana-Champaign ,"Applied Microeconomics, Industrial Organization",
-Huiyi (Kathy) Guo,huiyi-guo@uiowa.edu,Female,,,The University of Iowa?,"Microeconomics, Mechanism Design, Information Economics",
-Youn Soo Jung,younsoo-jung@uiowa.edu,Female,,,The University of Iowa?,"Health Economics, Labor Economics, Health Policy",
-Yang He,yanghe@iastate.edu,Male,,,Iowa State University?,"Applied Econometrics, Labor Economics, Health Economics",
-Zehui Jiang,gingerzh@iastate.edu,Female,,,Iowa State University?,"Agricultural Economics, Machine Learning, Futures Market",
-Xianjun Qiu,xqiu@iastate.edu,Female,,,Iowa State University?,"Environmental and Natural Resources Economics, Agricultural Economics, Applied Econometrics",
-GUO CHEN,ameliachennj@gmail.com,,,,University of Kansas?,"Economic theory, Macroeconomics, Data Science",
-Jingxian Hu,jingxianecon@gmail.com,,,,University of Kansas?,"Open Macroeconomics, Computational Economics",
-DIYUE GUO,guod@econ.umd.edu,,,,University of Maryland?,"Primary: Macroeconomics
-Secondary: Firm Dynamics",
-HONG LIN,linh@econ.umd.edu,,,,University of Maryland?,"Primary: Contract Theory, Behavioral Economics Secondary: Labor Economics, Industrial Organization, Experimental Economics",
-XUEZHEN TAO,tao@econ.umd.edu,,,,University of Maryland?,"Primary: Industrial Organization, Marketing
-Secondary: Innovation, Computational Economics",
-HAOMIN YAN,yan@econ.umd.edu,,,,University of Maryland?,"Primary: Microeconomic Theory, Market Design
-Secondary: Industrial Organization",
-Yuandong Qi,yuandong@umd.edu,Male,,,"University of Maryland, College Park, Department of Agricultural and Resource Economics (AREC)?","Development Economics
-Education Economics
-Labor Economics
-Applied Economics
-Chinese Economy",
-Jikun Wang,jikunw@umd.edu,Male,,,"University of Maryland, College Park, Department of Agricultural and Resource Economics (AREC)?","Environmental Economics
-Public Economics
-Energy Economics
-Applied Microeconomics",
-Wenjun Wang,wwang127@umd.edu,Male,,,"University of Maryland, College Park, Department of Agricultural and Resource Economics (AREC)?","Energy Economics
-Environmental Economics
-Empirical Industrial Organization",
-Youpei Yan,youpei@umd.edu,Female,,,"University of Maryland, College Park, Department of Agricultural and Resource Economics (AREC)?","Applied Microeconomics
-Environmental Economics
-Political Economics",
-Feng Jiao,feng.jiao[at]uleth.ca,Male,,,"McGill University, Desautels School of Management?","International Finance?
-Empirical Assets Pricing",
-Teresa Zhou,zhoji@email.unc.edu,Female,,,University of North Carolina at Chapel Hill?,Applied microeconomics?(primary)Health economicsLabor economics,
-Feifei Liang,fliang@ncsu.edu,Female,,,North Carolina State University?,"Primary: Nutrition and Health Economics Secondary: Applied Econometrics, Industrial Organization",
-Ziyi Mai,zmai@ncsu.edu,Female,,,North Carolina State University?,"Open Economy Macroeconomics, Applied Macroeconomics, Time Series Econometrics,
-Bayesian State Space Modeling, MCMC Computing",
-Longzhong Shi,lshi3@ncsu.edu,Male,,,North Carolina State University?,"Environment Economics, Applied Econometrics",
-Shenan Wu,swu8@ncsu.edu,Male,,,North Carolina State University?,"Primary: Agricultural Economics, Crop Insurance Secondary: Applied Econometrics, Risk Management",
-Yu Wu,ywu22@ncsu.edu,Female,,,North Carolina State University?,"Environmental and Resource Economics, Agricultural Economics Development Economics, Forest Economics, Regional Economics",
-Zhiyi (Alicia) Xu,zxu9@ncsu.edu?,Female,,,North Carolina State University?,"Primary fields:?Industrial Organization, Econometrics, Public Economics",
-,Alicia.Xu@sas.com,,,,,,
-,,,,,,,
-Dr. Wenjuan Chen,wenjuan.chen@fu-berlin.de,Female,,,Burlin Economics,"Applied Econometrics, Monetary Policy, Asset Prices ",
-Haomin Wang,hwang@diw.de?,,,,Burlin Economics,"Labor Economics, Macroeconomics, Applied Microeconomics?",
-Zhibin Wang,zhibin.wang@phd.unibocconi.it,,,,Bocconi University,Asset Pricing; Option Trading Strategy; Portfolio Allocation,
-Buqu Gao,bgao@bu.edu,female,,China,Boston university," Industrial Organization, Applied Theory, Behavioral Economics, Corporate Finance",
-Henry lin,henlin@bu.edu,,,China,Boston university," Industrial Organization, Applied Microeconomic Theory, Organizational Economics, Health Economics",
-Han Ye,yehan@bu.edu,female,,China,Boston university,"Labor Economics, Public Economics, Applied Microeconomics",
-Zhiteng Zeng,zengzht@bu.edu,,,China,Boston university," Macroeconomics, Monetary Economics, Asset pricing",
-Chi Zhang,cz0425@bu.edu,,,China,Boston university," Microeconomics, Game Theory",
-Yi Zhang,yalezhan@bu.edu,,,China,Boston university,"Microeconometrics, Financial Econometrics, Network Economics",
-Haoyu Zhou,haoyuzho@bu.edu,,,China,Boston university,"Industrial Organization, Applied Econometrics, Development Economics",
-Yubing Cui,helencui@brandeis.edu/yubing.cui@qq.com,female,,China,Brandeis University,Household Finance Portfolio Choice,
-Chen Jun,jchen3@caltech.edu,,,China,California Institute of Technology, entrepreneurial finance and empirical corporate finance,
-Sui Pengfei,psui@caltech.edu,,,China,California Institute of Technology,"asset pricing, behavioral finance, financial frictions, empirical industrial organization, and computational economics.",
-XINYU FAN,fanxy@ucla.edu,,,China,University of California LA,"Applied theory, political economy, industrial organization",
-Yunfan Gu,yunfangu@ucla.edu,,,China,University of California LA,"macroeconomics, international economics, finance and development",
-Wenshu Guo,guowenshu2008@gmail.com,,,China,University of California LA,"Industrial Organization, Applied Econometrics and Applied Theory",
-Jing Hang,jinghang@ucla.edu,,,China,University of California LA,economic development and the Chinese economy,
-fanghua li,fanghuali@ucla.edu,,,China,University of California LA,"Labor economics,Applied econometrics, Public economics",
-Zhuoran Lu,zhuoranlu.econ@gmail.com,,,China,University of California LA,"Microeconomic Theory,Game Theory,Industrial Organization",
-Liyan Shi,liyanshi@g.ucla.edu,,,China,University of California LA,"macroeconomics, firm dynamics, and labor markets. ",
-Yuan Tian,ytian14@ucla.edu,,,China,University of California LA,"Applied Microeconomics,Trade, and Development.",
-"Wang, Ruoying",wangruoying@gmail.com,,,,Vancouver School of Ecoomics The University of British Columbia,International Trade Innovation,
-Ruixuan Hu,rhu3@fordham.edu,,,,Fordham University?,"Financial Economics, International Economics, Applied Econometrics",
-Sharon Xuejing Zuo,xzuo2@uh.edu,Female,,,University of Houston?,"Labor Economics, Experimental Economics, Development Economics, and Chinese Economy",
-Li Zeng,liz212@lehigh.edu,,,,Lehigh University,"Health Economics, Applied Econometrics, Industrial Organization",
-,,,,,,,
-Zhuo Tan,?ztancs@gmail.com,,,,University of Miami,"environmental economics, computational economics and international economics.",
-GUO CHEN,ameliachennj@gmail.com,,,China,University of Kansas,"n economics and 
-data science",
-Jingxian Hu,jingxianecon@gmail.com,,,China,University of Kansas,"Open Macroeconomics, International Finance, Computational Economics",
-Jinfei Sheng,jinfei.sheng@sauder.ubc.ca,male,,China,"Sauder School of Business, University of British Columbia", Empirical Asset Pricing; Investments; Machine Learning; Textual Analysis; Information Economics; Financial Intermediation ,
-Ruiqing Cao,ruiqingcao@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Yin Chen,yinchen@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-STEPHANIE D. CHENG,stephaniecheng@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,"Labor Economics, Industrial Organization;Public Economics, Education Economics"
-Xiang Ding,xiangding@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Yuan Fang,yuanfang@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Jiacheng Feng,fengj@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-JOSH FENG,feng3@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,"Industrial Organization, Health Economics, Innovation and Entrepreneurship"
-Yuxiao Huang,yuxiaohuang@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Tianwang Liu,liut@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Weiling Liu,weilingliu90@gmail.com,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Patrick Luo,cluo@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Yueran Ma,yueranma@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,"financial economics, macroeconomics, and behavioral economics"
-Yin Wei Soon,ywsoon@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Wei Sun,weisun@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Zhengyun Sun,zsun@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Carmen Wang,carmenwang@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Jeffrey Wang,jeffrey_wang@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Sophie Calder-Wang,sophie.calderwang@gmail.com,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,"how innovations interact with the market: how are innovations financed, how do innovations affect the product market competition, and whether gains from innovations are distributed equitably."
-Zixuan Wang,zwang@hbs.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-WENTAO XIONG,wxiong@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,"International Trade, Urban Economics;Development Economics, Financial Economics, Public Economics"
-Chenzi Xu,cxu@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-He Yang,heyang@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Xiao Yang,yang04@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Allen T. Zhang,allenzhang@fas.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-David Hao Zhang,dzhang@hbs.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Ran Zhuo,rzhuo@g.harvard.edu,,,China,Harvard University,https://economics.harvard.edu/people/people-type/graduate-students,Economics
-Lien Ta,ltt46@drexel.edu,,,China,"LeBow College of Business,Drexel University",http://www.lebow.drexel.edu/faculty-and-research/disciplines/economics/phd-students,Economics
-"Chen, Wanlin",wanlin.chen@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/3,
-"Fang, Jie",jie.fang@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/4,
-"Fang, Limin",limin.fang@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/5,"?Industrial organization, Econometrics, Applied microeconomics"
-"Hao, Tongtong",tongtong.hao@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/6,
-"Hao, Yiran",yiran.hao@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/7,
-"Hu, Ming-Yu",mingyu.hu@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/8,
-"Lee, Heather",hheather.lee@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/9,
-"Lee, Soomin",tomy.lee@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/10,
-"Li, Congfei",congfei.li@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/11,
-"Lim, Paul",spaull.lim@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/12,
-"Liu, Hui",yihui.liu@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/13,
-"Shen, Qingyang",rallye.shen@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/14,
-"Wang, Linda",ld.wang@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/15,
-"Wang, Xin",jeffreyxin.wang@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/16,"Financial economics, Empirical asset pricing, International finance"
-"Wang, Yu",emma.wang@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/17,
-"Wu, Young",yiyang.wu@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/18,"Microeconomic theory, Financial economics"
-"Xie, Erhao",erhao.xie@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/19,"Industrial organization, Econometrics, Experimental Economics"
-"Xu, Huilan",huilan.xu@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/20,
-"Xu, Yiming",yiming.xu@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/21,"Financial economics, Econometrics, Corporate Finance"
-"Zhang, Haofei",haofei.zhang@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/22,"Financial economics, Corporate Finance, Corporate Governance, Fintech"
-"Zheng, Hang",hang.zheng@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/23,
-"Zhu, Ruizhi",rz.zhu@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/24,
-"Zou, Jiaqi",jiaqi.zou@mail.utoronto.ca,,,China,"Department of Economics,University of Toronto",https://www.economics.utoronto.ca/index.php/index/person/gradStudents/25,"health, well-being, and?behavioural?economics"
-Anwen Zhang,https://www.linkedin.com/in/anwen-zhang-ba4b591b/,,,China,Lancaster University ,http://www.lancaster.ac.uk/lums/our-departments/economics/phd/#d.en.333536,
-"Qi, Yingjie",yingjie.qi@phdstudent.hhs.se,,,China,Stockholm School of Economics,https://www.hhs.se/en/research/departments/df/people/phd-students/,
-"Tang, Yue",yue.tang@phdstudent.hhs.se,,,China,Stockholm School of Economics,https://www.hhs.se/en/research/departments/df/people/phd-students/,
-"Wu, Jiaxin",jiaxin.wu@phdstudent.hhs.se,,,China,Stockholm School of Economics,https://www.hhs.se/en/research/departments/df/people/phd-students/,"empirical corporate finance, venture capital, entrepreneurship, innovation, emerging markets, culture and economics."
-Qing (Shawn) Xia,qing.xia@hhs.se,,,China,Stockholm School of Economics,https://www.hhs.se/en/research/departments/df/people/phd-students/,
-"Zhu, Xingyu",xingyu.zhu@phdstudent.hhs.se,,,China,Stockholm School of Economics,https://www.hhs.se/en/research/departments/df/people/phd-students/,
-Cheng Cheng,cheng.cheng-4@postgrad.manchester.ac.uk,,,China,University of Manchester,https://www.socialsciences.manchester.ac.uk/economics/research/postgraduate-research/current-phd-students/,"Macroeconomics, Growth, and Development;Technological Change, Employment and Wages in the Global Economy."
-Xin Hao,xin.hao@postgrad.manchester.ac.uk,,,China,University of Manchester,https://www.socialsciences.manchester.ac.uk/economics/research/postgraduate-research/current-phd-students/,economic growth and development;developing country°Øs dynamic comparative advantage and its development strategy
-Pengfei Jia,jacky.jia24@gmail.com,,,China,University of Manchester,https://www.socialsciences.manchester.ac.uk/economics/research/postgraduate-research/current-phd-students/,"International Macroeconomics, Monetary Economics, DSGE models and Central Banking"
-Lin Lang,lin.lang-2@postgrad.manchester.ac.uk,,,China,University of Manchester,https://www.socialsciences.manchester.ac.uk/economics/research/postgraduate-research/current-phd-students/,Fiscal Reform and Government debt
-Peihong Liu,peihong.liu@postgrad.manchester.ac.uk,,,China,University of Manchester,https://www.socialsciences.manchester.ac.uk/economics/research/postgraduate-research/current-phd-students/,Measure of Riskiness Principal-Agent Problem
-Yueqing Liu,yueqing.liu@postgrad.manchester.ac.uk,,,China,University of Manchester,https://www.socialsciences.manchester.ac.uk/economics/research/postgraduate-research/current-phd-students/,"Political economy and macroeconomics,?particularly in electoral competition process in different political regimes and economic consequences."
-Jingyi Meng,jingyi.meng@postgrad.manchester.ac.uk,,,China,University of Manchester,https://www.socialsciences.manchester.ac.uk/economics/research/postgraduate-research/current-phd-students/,"Microeconomics and Mathematical Economics RAG
-Econometrics and Applied Economics RAG"
-Yizhi Wang,yizhi.wang@postgrad.manchester.ac.uk,,,China,University of Manchester,https://www.socialsciences.manchester.ac.uk/economics/research/postgraduate-research/current-phd-students/,Microeconomics and Mathematical Economics research group. mechanism design and social choice.
-Ning Xue,ning.xue@postgrad.manchester.ac.uk,,,China,University of Manchester,,"Macroeconomics which particularly focuses on habit, decision-making, government spending and trade"
-LIU Shou Wei?,shouwei.liu.2010@phdecons.smu.edu.sg,,,,Singapore Management University,https://economics.smu.edu.sg/phd-economics/job-candidates,"Derivative Pricing, Risk Management, Time Series Analysis"
-ZENG Tao,taozeng@smu.edu.sg,,,,Singapore Management University,,Bayesian Model Selection Financial Econometrics Bayesian DSGE Models
-Sai Ma,sai.ma@nyu.edu,,,,New York University (NYU),https://saimaecon.com/,"Financial Economics, Asset Pricing, Macro-Finance,?Search Theory."
-Shih-Hsien (Johnny) Chuang,schuang2@huskers.unl.edu,,,,UNIVERSITY OF NEBRASKA®CLINCOLN,https://business.unl.edu/about-us/faculty-and-staff-directory/?DepartmentID=4&JobMarket=1,"Public Economics
-Industrial Organization
-Urban Economic"
-Shu Shen,shushen@ucdavis.edu,,,,UCDAVIS,https://grad.ucdavis.edu/programs/gecn,Economics
-Wing Woo,wtwoo@ucdavis.edu,,,,UCDAVIS,,Economics
-Xin Wang,jeffreyxin.wang@mail.utoronto.ca,,,,"Department of Economics
-University of Toronto",https://www.economics.utoronto.ca/index.php/index/graduate/jobcandidates,Economics
-Young Wu?,yiyang.wu@mail.utoronto.ca,,,,"Department of Economics
-University of Toronto",https://www.economics.utoronto.ca/index.php/index/graduate/jobcandidates,Economics
-Yiming Xu,yiming.xu@mail.utoronto.ca,,,,"Department of Economics
-University of Toronto",https://www.economics.utoronto.ca/index.php/index/graduate/jobcandidates,
-Shew Fan Liu,shewfan.liu.2011@ smu.edu.sg,,,,Singapore Management University,http://www.shewfanliu.com/,"Spatial Econometrics, Econometric Theory"
-Zichen,stolting@ese.eur.nl,,,,Tinbergen institute,http://www.tinbergen.nl/phd-student/,"Applied Microeconomics,?Health,Labor"
-Hao (H.) Fang,h.fang@uva.nl,,,,Tinbergen institute,http://www.tinbergen.nl/phd-student/,"Financial Econometrics,?Risk Management,?Time Series Econometrics"
-Xinying (X.) Fu,xfu@feweb.vu.nl,,,,Tinbergen institute,http://www.tinbergen.nl/phd-student/,Macroeconomics and International Economics
-Xun (X.) Gong,gong@ese.eur.nl,,,,Tinbergen institute,http://www.tinbergen.nl/phd-student/,"Asset Pricing,?Bayesian Econometrics,?Finance,?Financial Econometrics"
-Yuan (Y.) Gu,y.gu@vu.nl,,,,Tinbergen institute,http://www.tinbergen.nl/phd-student/,"Environmental Economics,?Resource Economics,?Spatial Economics"
-Pinhan Chen,pinhanchen@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",http://galton.uchicago.edu/people/phd-students.shtml
-Zhan Lin,zhanlin@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Yi Liu,yil@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Lizhen Nie,lizhen@galton.uchicago.edu,female,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Jiacheng Wang,jiachengwang@galton.uchicago.edu,female,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Daniel Xiang,dxiang@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Qing Yan,yanq@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-You-Lin Chen,youlinchen@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Ran Dai,randai@galton.uchicago.edu,female,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Xialiang Dou,xialiang@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Sen Na,senna@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Yuxin Zou,yuxin@galton.uchicago.edu,female,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Yongrui Chen,yongrui@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Haoyang Liu,hyliu@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Zhipeng Lou,zplou@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Minzhe Wang,minzhew@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Changji Xu,changjixu@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Fengshuo Zhang,fengshuo@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Bumeng Zhuo,bumengzhuo@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Yuefeng Han,yhan2@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Mengyin Lu,mengyin@galton.uchicago.edu,female,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Lei Sun,sunl@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Fan Yang,fyang1@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Jing Yu,jingyu@galton.uchicago.edu,female,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Likai Chen,lkchen@galton.uchicago.edu,female,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Yunfan Tang,ytang@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Sze Wai Wong,swong@galton.uchicago.edu,,,,"University of Chicago, Department of statistics","Ph.D. Students, Statistics Department",
-Yan Liang,y.liang4@lse.ac.uk,,,,Department of Economics London School of Economics and Political Science,,http://www.lse.ac.uk/economics/phd-job-market/job-market-candidates
-Xuefei LU,xuefei.lu@phd.unibocconi.it?,female,,,University Commerciale Luigi Bocconi,,https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/programs/phd+school/phd+in+statistics/phd+students/current+phd+students+in+statistics
-Wei ZHANG?,wei.zhang@phd.unibocconi.it,,,,University Commerciale Luigi Bocconi,,
-Kin-Wai (Keith) Chan,kinwaichan@g.harvard.edu,,,,Harvard University?,Statistics Ph.D.Students,https://statistics.fas.harvard.edu/person-role/phd-students
-Chenguang Dai,chenguangdai@g.harvard.edu,,,,Harvard University?,Statistics Ph.D.Students,
-Ruobin Gong,rgong@fas.harvard.edu,female,,,Harvard University?,Statistics Ph.D.Students,
-Zhirui Hu,zhiruihu@g.harvard.edu,female,,,Harvard University?,Statistics Ph.D.Students,
-Dongming Huang,dhuang01@g.harvard.edu,,,,Harvard University?,Statistics Ph.D.Students,
-Nianqiao (Phyllis) Ju,nju@g.harvard.edu,female,,,Harvard University?,Statistics Ph.D.Students,
-Xinran Li,xinranli@fas.harvard.edu,,,,Harvard University?,Statistics Ph.D.Students,
-Shaoyang Ning,shaoyangning@fas.harvard.edu,,,,Harvard University?,Statistics Ph.D.Students,
-Stephane Shao,stephaneshao@g.harvard.edu,,,,Harvard University?,Statistics Ph.D.Students,
-Wenshuo Wang,wenshuo_wang@g.harvard.edu,,,,Harvard University?,Statistics Ph.D.Students,
-Xiumei Li,xl345@drexel.edu,female,,,Drexel University's LeBow College of Business,Magagement Ph.D.Students,http://www.lebow.drexel.edu/faculty-and-research/disciplines/management/phd-students
-Donghwi Seo,ds3287@drexel.edu,,,,Drexel University's LeBow College of Business,Magagement Ph.D.Students,
-Di Tong,dt474@drexel.edu,,,,Drexel University's LeBow College of Business,Magagement Ph.D.Students,
-Cheng Wang,cw655@drexel.edu,female,,,Drexel University's LeBow College of Business,Magagement Ph.D.Students,
+Name,Email,Gender,Age,Country,University for phD,Major for doctor
+Xinyi Deng,xd2188@columbia.edu,,,,Columbia University in the City of New York,Postdocs Statistics Department
+Xuexin Wei,xw2481@columbia.edu,,,,Columbia University in the City of New York,Postdocs Statistics Department
+Dong Xia,dx2170@columbia.edu,male,,,Columbia University in the City of New York,Postdocs Statistics Department
+Xueying Tang,xt2197@columbia.edu,,,,Columbia University in the City of New York,Postdocs Statistics Department
+Pengchen Zhou,pz2230@columbia.edu,,,,Columbia University in the City of New York,Postdocs Statistics Department
+Rong Zhu,rz2425@columbia.edu,,,,Columbia University in the City of New York,Postdocs Statistics Department
+Jingjing Zou,jingjing@stat.columbia.edu,female,,,Columbia University in the City of New York,Postdocs Statistics Department
+Xinyi Deng,xd2188@columbia.edu,,,,Columbia University in the City of New York,Postdocs Statistics Department
+Ed Cheng,cheng@stat.columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Chi Wing Chu,cc4160@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Guanhua Fang,gf2340@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Fan Gao,gao.fan@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Cuize Han,ch3311@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Yayun Hsu,yh2692@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Sihan Huang,sh3453@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Jin Lee,jl4303@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Tong Li,tl2794@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Hok Kan Ling,hl2902@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Feihan Lu,fl2238@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Chengliang Tang,ct2747@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Phyllis Wan,phyllis@stat.columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Shuaiwen Wang,sw2853@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Shulei Wang,sw3229@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Yixin Wang,yw2539@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Zhi Wang,zw2393@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Jing Wu,jw3233@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Shun Xu,sx2220@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Yuanzhe Xu,yuanzhe.xu@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Yuling Yao,yy2619@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Chaoyu Yuan,cy2438@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Ding Zhou,dz2336@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Wenda Zhou,wz2335@columbia.edu,,,,Columbia University in the City of New York,Ph.D. Students Statistics Department
+Tuo Chen,tuo.chen@columbia.edu,male,,,Department of Economics Columbia University,
+Tong Geng,tong.geng@columbia.edu,male,,,Department of Economics Columbia University,the effects of school organization and education policies on human capital production
+Chengcheng Jia,chengcheng.jia@columbia.edu,female,,,Department of Economics Columbia University,
+Yang Jiao,yang.jiao@columbia.edu,male,,,Department of Economics Columbia University,International Finance Macro and International Trade
+Lin Tian,lin.tian@columbia.edu,female,,,Department of Economics Columbia University,"International Trade, Economic Geography and Urban Economics"
+Xingye Wu,xingye.wu@columbia.edu,male,,,Department of Economics Columbia University,"Mechanism Design, Matching Theory"
+Jing Zhou,j.zhou@columbia.edu,female,,,Department of Economics Columbia University,"International Trade (primary)
+Economic Development, Economic History (secondary)"
+Tianle Zhang,t.zhang5@lse.ac.uk,,,,LSE,
+Mengshan Xu,m.xu8@lse.ac.uk,,,,LSE,
+Yu Yi,y.yi3@lse.ac.uk,,,,LSE,
+Kezhou Xiao,k.xiao@lse.ac.uk,,,,LSE,
+Di Song Tan,d.tan2@lse.ac.uk,,,,LSE,
+Tiancheng Sun,t.sun3@lse.ac.uk,,,,LSE,
+Rui Sun,r.sun6@lse.ac.uk,,,,LSE,
+Xuezhu Shi,x.shi2@lse.ac.uk,,,,LSE,
+Chen Qiu,c.qiu@lse.ac.uk,,,,LSE,
+Junyi Liao,j.liao1@lse.ac.uk,,,,LSE,
