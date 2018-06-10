@@ -16,6 +16,11 @@ from fuzzywuzzy import process
 import mysql.connector
 from pypinyin import lazy_pinyin
 import re
+import smtplib  
+from email.mime.text import MIMEText  
+import os
+import time
+
 
 global surnames, pinyinsur
 ChineseSurname = '赵 钱 孙 李 周 吴 郑 王 冯 陈 褚 卫 \
@@ -72,6 +77,58 @@ def table_exist(tab_name):
     res = tab_name in tabnames
     return res
 
+
+ 
+
+mail_host="mail.zjgsu.edu.cn"            #使用的邮箱的smtp服务器地址，这里是163的smtp地址  
+mail_user="recruit.ibs"                           #用户名  
+mail_pass=input('Please enter the password of the sending mailbox:')     #密码  
+mail_postfix="zjgsu.edu.cn"                     #邮箱的后缀，网易就是163.com
+
+ 
+
+def send_mail(to_list,sub,content):  
+
+    me="International Business School in Zhejiang Gongshang Univ "+"<"+mail_user+"@"+mail_postfix+">"  
+    msg = MIMEText(content,_subtype='plain')  
+    msg['Subject'] = sub  
+    msg['From'] = me  
+    msg['To'] = to_list                #将收件人列表以‘；’分隔  
+
+    try:  
+        time.sleep(3)#睡眠2秒 
+        server = smtplib.SMTP()  
+        server.connect(mail_host, 25)                            #连接服务器  
+        server.login(mail_user,mail_pass)               #登录操作  
+        server.sendmail(me, to_list, msg.as_string())  
+        server.close()  
+        return True  
+    except: 
+        return False  
+
+ 
+
+f = open(os.getcwd()+'\\content.txt','r')  # 读取正文内容
+mailcontent = f.read()
+f.close()
+
+ 
+
+f = open(os.getcwd()+'\\sub.txt','r') # 读取邮件主题
+mailsub = f.read()
+f.close()
+
+# Log
+
+flog = open(os.getcwd() + '\\log.txt', 'a+')  # 读取日志内容
+
+flog.writelines('\n \n Date Updating Log on ' + time.strftime('%Y-%m-%d',time.localtime(time.time())) + '\n')
+
+flog.writelines('Start from: '+ time.strftime('%H:%M:%S',time.localtime(time.time())) + '\n')
+
+
+
+
 conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
                        password= '11031103',database="journalcontact",charset="utf8")
 cur = conn.cursor()
@@ -83,8 +140,31 @@ if not table_exist('email_jour_auth3'):
         journal varchar(50) null, citation varchar(20) null, volume varchar(20) null, year varchar(20) null,\
         title varchar(200) null, url varchar(200) null)'
     cur.execute(sql_create)
+    
+if not table_exist('all_inf1'):
 
-nam_jour = 'bioinformatics'
+    #build a new table named by the journal title 
+
+    sql_new = "create table all_inf1(id int not null unique auto_increment, author varchar(100) Null,"
+    sql_new+="email varchar(100) Null,"
+    sql_new+="response int Null,"
+    sql_new+="confidence int Null,"
+    sql_new+="cn varchar(100) Null,"
+    sql_new+="country varchar(100) Null,"
+    sql_new+="journal varchar(100) Null,"
+    sql_new+="citation varchar(100) Null,"
+    sql_new+="volume varchar(100) Null,"
+    sql_new+="year varchar(100) Null,"
+    sql_new+="title varchar(1000) Null,"
+    sql_new+="attempt varchar(1000) Null,"    
+    sql_new+="sendstate int Null,"    
+    sql_new+="primary key(id))"
+
+    cur.execute(sql_new)
+    conn.commit()
+
+
+nam_jour = 'ss'
 sql = "select authors from "+ nam_jour
 cur.execute(sql)
 author_list = cur.fetchall()
@@ -107,6 +187,8 @@ sql = "select year from "+ nam_jour
 cur.execute(sql)
 yrs = cur.fetchall()
 
+suc = 0
+fails = 0
 for i in range(1,len(titles)):
     (emails,) = email_list[i]
     (authors,) = author_list[i]
@@ -125,11 +207,80 @@ for i in range(1,len(titles)):
             
         cname = findsurname(str.lower(au_email[0].split(',')[0].split(' ')[-1]))
         
+        
         if not cname == 'NULL' and au_email[1] > 50:
+
             sql_ins = 'insert into email_jour_auth3 (author, email, sent, confidence, cn, country, journal, citation, volume, year, title, url) \
             values ("%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s")'
+
             cont_ins = [au_email[0],em, 0, au_email[1], cname ,country,nam_jour,citations[i][0],vols[i][0], yrs[i][0], titles[i][0], urls[i][0]]
+
             cur.execute(sql_ins, cont_ins)
+             
+            sql_find = 'select * from all_inf1 where author=\"%s\" and email=\"%s\"'
+            cont_ins=[au_email[0],em]
+            cur.execute(sql_find,cont_ins)
+            cnt = cur.fetchall()
+ 
+            if(len(cnt)==0):   
+                sql_ins = 'insert into all_inf1 (author, email, confidence, cn, country, journal, citation, volume, year, title, sendstate) \
+                values ("%s","%s","%s","%s","%s","%s","%s","%s","%s","%s","%s")'
+
+                cont_ins = [au_email[0],em,  au_email[1], cname ,country,nam_jour,citations[i][0],vols[i][0], yrs[i][0], titles[i][0], 0]
+                cur.execute(sql_ins, cont_ins)
     conn.commit()
+  
+    
+#从all_inf1中筛选sendstate为0的作者发送邮件
+sql_select = "select * from all_inf1 where sendstate=\"0\""
+
+cur.execute(sql_select)
+
+info = cur.fetchall()
+
+suc = 0
+
+fails = 0
+
+for i in range(0,len(info)): 
+
+    modifiedcontent = mailcontent.split('XXX')[0] + info[i][11] + mailcontent.split('XXX')[1]
+
+    content = 'Dear Dr. ' + info[i][1] + modifiedcontent                         #发送1封，上面的列表是几个人，这个就填几  
+
     
 
+    # Check if the author has been in touched (No. 2)
+
+    now_name = info[i][1]
+
+    if send_mail(info[i][2],mailsub,content):
+        print("Mail sent to "+info[i][2]+' successfully!')
+        suc = suc + 1
+    # 若发送成功，修改sendstate为1，并记录发送成功时间
+        sql_update = "update all_inf1 set sendstate = '1', attempt = \"%s\""%time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
+
+        sql_update += " where author = '%s'"%now_name
+
+        cur.execute(sql_update)
+
+        conn.commit()
+
+    else:  
+
+        print("failed to be received by "+info[i][2]+'!')
+
+        fails = fails + 1
+
+        flog.writelines('failed to be received by '+info[i][2]+'!' + '\n')
+
+
+
+flog.writelines('In total, there is '+ str(suc) + ' messages has been sent successfully while ' +str(fails)+ ' messages can not be sent. \n')
+
+flog.writelines('End at: '+ time.strftime('%H:%M:%S',time.localtime(time.time())) + '\n')
+
+#send_mail('ibs@zjgsu.edu.cn','Mail Log', flog.read())   
+
+flog.close()   
+    

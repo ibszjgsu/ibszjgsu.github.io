@@ -14,6 +14,56 @@ from lxml import etree
 import re
 import mysql.connector
 import time
+from bs4 import BeautifulSoup
+
+headers = {"user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) \
+           AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+          }
+
+pageurl ='https://link.springer.com/journal/volumesAndIssues/41265'
+res = requests.get(pageurl,timeout=15,headers=headers)
+res.encoding = 'utf-8'
+soup = BeautifulSoup(res.text, 'html.parser')
+sp = soup.find_all('a', class_='title')
+links = []
+info_date_issue = []
+for link in sp:
+    links.append(link.get('href'))
+    info_date_issue.append(link.get_text())
+    
+    
+    
+pageurl2 = 'https://link.springer.com/journal/41265/33/1/page/1'
+res2 = requests.get(pageurl2,timeout=15,headers=headers)
+res2.encoding = 'utf-8'
+soup2 = BeautifulSoup(res2.text, 'html.parser')
+sp2 = soup2.find_all('h3', class_='title')
+    
+for i in range(len(sp2)):
+    if 'Research Article' in soup2.find_all('p', class_='content-type')[i]:
+        suburl = sp2[i].prettify().split('href="')[1].split('"')[0]
+    
+
+
+pageurl3 = 'https://link.springer.com/article/10.1057/s41265-016-0034-2'
+res3 = requests.get(pageurl3,timeout=15,headers=headers)
+res3.encoding = 'utf-8'
+soup3 = BeautifulSoup(res3.text, 'html.parser')
+sp2 = soup3.find_all('span', class_='authors-affiliations__name') # author list
+    soup3.find_all('a', class_='gtm-email-author')  # email
+    soup3.find('h1', class_='ArticleTitle').get_text()  # title 
+    soup3.find(class_="test-metric-count c-button-circle gtm-citations-count").get_text()  # citation
+    soup3.find('span', class_="ArticleCitation_Volume").get_text().split(',')[0].strip('Volume').strip() # volume
+    soup3.find('time').get_text()  # date
+    soup3.find('a', class_="ArticleCitation_Issue").get_text()[-1] # issue
+    soup3.find(class_="JournalTitle").get_text()  # joural title
+    
+    #soup3.find(id="citations-count-number").get_text()     # citation
+    #soup3.select('#citations-count-number')[0].get_text()  # citation
+    #soup3.find(id = 'Par1', class_="Para").get_text() # abstract
+    #soup3.find_all('span', class_="Keyword") # keyword
+    
+    
 
 def table_exist(tab_name):
     cur.execute('show tables')  # 罗列所有当前库里面的所有表格
@@ -35,17 +85,15 @@ cur = conn.cursor()
 #     sql = "create table econometricreviews (id int not null unique auto_increment, \
 # =======
 #==============================================================================
-if not table_exist('ijgt'):
+if not table_exist('journalofappliedstatistics'):
     #build a new table named by the journal title 
-    sql = "create table ijgt (id int not null unique auto_increment, \
+    sql = "create table journalofappliedstatistics (id int not null unique auto_increment, \
          title varchar(300), authors varchar(300), au_email varchar(500),\
          citation varchar(20), volume varchar(20), issue varchar(20), year varchar(20), url varchar(300),\
          primary key(id))"
     cur.execute(sql)
 
-headers = {"user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) \
-           AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
-          }
+
 header = {'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0'}
 
 
@@ -72,16 +120,18 @@ pageurlsuffix = '&cacheurlFromRightClick=no'
 # 
 # =======
 #==============================================================================
-pagenum = 17
-pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=1918&SID=7CBEv99zxNizDc45VJs&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
+pagenum = 66
+pageurl ='https://link.springer.com/journal/volumesAndIssues/41265'
 
 
 
-for pg in range(1,pagenum + 1):
+for pg in range(34,pagenum + 1):
     # Next page URL, being used before the end of this loop
     nexturl = pageurl + str(pg)
     # Proceeds to next page by using nexturl
-    res = requests.get(nexturl,timeout=15,headers=headers)
+    res = requests.get(pageurl,timeout=15,headers=headers)
+    res.encoding = 'utf-8'
+    soup = BeautifulSoup(res.text, 'lxml')
     selector = etree.HTML(res.text)
     
     time_start = time.time()
@@ -144,7 +194,7 @@ for pg in range(1,pagenum + 1):
 # =======
 #==============================================================================
 #  >>>>>>> f1d91706b06feaf187937072f5d89fe7e7267133        
-        sql_ins = "insert into ijgt (title, authors, au_email, citation, volume, issue, year, url) \
+        sql_ins = "insert into journalofappliedstatistics (title, authors, au_email, citation, volume, issue, year, url) \
         values ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" %\
         (paper_titles[i].replace("'","").replace('"',''), paper_auths[i].replace("'","").replace('"',''), paper_email, cites,\
          paper_vols[i] or 'NULL', iss or 'NULL', paper_dates[i] or 'NULL', paper_suburl)
@@ -161,60 +211,7 @@ for pg in range(1,pagenum + 1):
     
     #  cur.execute('drop table jsas')
     
-    
-##paper_urls = selector.xpath('//div[@class="anchor article-content-title u-margin-top-xs u-margin-bottom-s"]/a/@href')
-#while True:
-##for echos in range(0,3):
-#    # Find the URL of next page
-#    nexturlpat = 'aria-disabled="false" rel="next" href="(.*?)"><span class' 
-#    nexturl = 'https://www.sciencedirect.com/' + re.findall(nexturlpat,res.text,re.S)[0]
-#    
-#    # List of paper sub URl need to be appended by 'https://www.sciencedirect.com/'
-#    paper_suburl = selector.xpath('//*[starts-with(@id,"S03044076")]/@href')
-#
-#    for sub_url in paper_suburl:
-#        time_start = time.time()
-#        url = 'https://www.sciencedirect.com/' + sub_url
-#        res2 = requests.get(url,headers=headers)
-#        html = etree.HTML(res2.text)
-#        paper_title = html.xpath('//*[@id="ti000005"]/text()')[0]
-#        paper_volissue = html.xpath('//*[@id="centerInner"]/div[1]/div[2]/p[1]/a/text()')[0]
-#        vol = paper_volissue.split(',')[0].split(' ')[-1]
-#        iss = paper_volissue.split(',')[1].split(' ')[-1]
-#        sql_ins01 = "insert into joe3 (Vol, Issue, title, url) values ('%s', '%s', '%s', '%s')" %\
-#        (vol, iss, paper_title, url)
-#        try:
-#            cur.execute(sql_ins01)
-#            conn.commit()
-#        except:
-#            conn.rollback()  
-#        time.sleep(2)#睡眠2秒    
-#        mailpat = '{"type":"email"},"_":"(.*?)"}]}'
-#        maillist = re.findall(mailpat,res2.text,re.S)
-#        namepat = '<span class="text given-name">(.*?)</span>'
-#        author_given_list = re.findall(namepat,res2.text,re.S)
-#        namepat = '<span class="text surname">(.*?)</span>'
-#        author_sur_list = re.findall(namepat,res2.text,re.S)
-#        
-#        if len(author_sur_list) == 0:  # if there is no author information then skip
-#            continue
-#        for i in range(1,len(author_sur_list)+1):
-#            if i > 3:  # we only take first 3 authors information
-#                break
-#            # in case of data missing, fill in na 
-#            author_sur = 'na' if len(author_sur_list) < i else author_sur_list[i-1]
-#            author_given = 'na' if len(author_given_list) < i else author_given_list[i-1]
-#            mlist = 'na' if len(maillist) < i else maillist[i-1]
-#            # insert into database
-#            sql_tmp = "update joe3 set au_sur_"+str(i)+" = '%s' , au_gen_"+str(i)+"  = '%s', au_email_"+str(i)+" = '%s' where title = '%s'"
-#            sql_ins02 = sql_tmp % (author_sur, author_given, mlist, str(paper_title))
-#            try:
-#               cur.execute(sql_ins02)
-#               conn.commit()
-#            except:
-#               conn.rollback()  
-    
-     # Program stops if there is no more next page (latest issue)
+
 
 
 
