@@ -820,6 +820,92 @@ In total, there is 0 messages has been sent successfully while 2 messages can no
 End at: 21:59:45
 
  
+<<<<<<< HEAD
+ Date Updating Log on 2018-06-04
+Start from: 10:38:59
+
+ 
+ Date Updating Log on 2018-06-04
+Start from: 10:44:19
+failed to be received by hl2902@columbia.edu!
+failed to be received by ct2747@columbia.edu!
+failed to be received by sw2853@columbia.edu!
+failed to be received by sw3229@columbia.edu!
+failed to be received by yw2539@columbia.edu!
+failed to be received by zw2393@columbia.edu!
+failed to be received by jw3233@columbia.edu!
+failed to be received by sx2220@columbia.edu!
+failed to be received by yuanzhe.xu@columbia.edu!
+failed to be received by yy2619@columbia.edu!
+failed to be received by dz2336@columbia.edu!
+failed to be received by wz2335@columbia.edu!
+failed to be received by tuo.chen@columbia.edu!
+failed to be received by chengcheng.jia@columbia.edu!
+failed to be received by yang.jiao@columbia.edu!
+failed to be received by lin.tian@columbia.edu!
+failed to be received by xingye.wu@columbia.edu!
+failed to be received by j.zhou@columbia.edu!
+failed to be received by m.xu8@lse.ac.uk!
+failed to be received by y.yi3@lse.ac.uk!
+failed to be received by t.sun3@lse.ac.uk!
+failed to be received by r.sun6@lse.ac.uk!
+failed to be received by x.shi2@lse.ac.uk!
+failed to be received by c.qiu@lse.ac.uk!
+failed to be received by j.liao1@lse.ac.uk!
+In total, there is 23 messages has been sent successfully while 25 messages can not be sent. 
+End at: 10:47:29
+
+ 
+ Date Updating Log on 2018-06-04
+Start from: 10:54:49
+failed to be received by hl2902@columbia.edu!
+failed to be received by ct2747@columbia.edu!
+failed to be received by sw2853@columbia.edu!
+failed to be received by sw3229@columbia.edu!
+failed to be received by yw2539@columbia.edu!
+failed to be received by zw2393@columbia.edu!
+failed to be received by jw3233@columbia.edu!
+failed to be received by sx2220@columbia.edu!
+failed to be received by yuanzhe.xu@columbia.edu!
+failed to be received by yy2619@columbia.edu!
+failed to be received by dz2336@columbia.edu!
+failed to be received by wz2335@columbia.edu!
+failed to be received by tuo.chen@columbia.edu!
+failed to be received by chengcheng.jia@columbia.edu!
+failed to be received by yang.jiao@columbia.edu!
+failed to be received by lin.tian@columbia.edu!
+failed to be received by xingye.wu@columbia.edu!
+failed to be received by j.zhou@columbia.edu!
+failed to be received by m.xu8@lse.ac.uk!
+failed to be received by y.yi3@lse.ac.uk!
+failed to be received by t.sun3@lse.ac.uk!
+failed to be received by r.sun6@lse.ac.uk!
+failed to be received by x.shi2@lse.ac.uk!
+failed to be received by c.qiu@lse.ac.uk!
+failed to be received by j.liao1@lse.ac.uk!
+In total, there is 0 messages has been sent successfully while 25 messages can not be sent. 
+End at: 10:57:19
+
+ 
+ Date Updating Log on 2018-06-04
+Start from: 14:27:56
+failed to be received by wz2335@columbia.edu!
+failed to be received by tuo.chen@columbia.edu!
+failed to be received by chengcheng.jia@columbia.edu!
+failed to be received by yang.jiao@columbia.edu!
+failed to be received by lin.tian@columbia.edu!
+failed to be received by xingye.wu@columbia.edu!
+failed to be received by j.zhou@columbia.edu!
+failed to be received by m.xu8@lse.ac.uk!
+failed to be received by y.yi3@lse.ac.uk!
+failed to be received by t.sun3@lse.ac.uk!
+failed to be received by r.sun6@lse.ac.uk!
+failed to be received by x.shi2@lse.ac.uk!
+failed to be received by c.qiu@lse.ac.uk!
+failed to be received by j.liao1@lse.ac.uk!
+In total, there is 11 messages has been sent successfully while 14 messages can not be sent. 
+End at: 14:36:15
+=======
  Date Updating Log on 2018-05-31
 Start from: 09:01:01
 failed to be received by nczlbc_890@126.com!
@@ -1457,6 +1543,7 @@ failed to be received by jian-feng.yao@univ-rennes1.fr!
 failed to be received by yang.xing@sekon.slu.se!
 In total, there is 24 messages has been sent successfully while 115 messages can not be sent. 
 End at: 16:29:59
+<<<<<<< HEAD
 
  
  Date Updating Log on 2018-06-04
@@ -3807,3 +3894,6 @@ failed to be received by hao.zhou@frb.gov!
 failed to be received by wangh@ntu.edu.tw!
 In total, there is 28 messages has been sent successfully while 329 messages can not be sent. 
 End at: 09:55:11
+=======
+>>>>>>> 40c9b141056f6bbd956d25f7f9f4c1bf2aa78dc8
+>>>>>>> 2a8d8cd04ef1235704363fab5bcf9ee868c5345b
