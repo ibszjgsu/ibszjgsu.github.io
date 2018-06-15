@@ -25,10 +25,8 @@ def table_exist(tab_name):
 
 #==============================================================================
   
-#mail_host="smtp.163.com"            #使用的邮箱的smtp服务器地址，这里是163的smtp地址  
-#mail_user="xinihe"                           #用户名  
-#mail_pass=input('Please enter the password of the sending mailbox:')                          #密码  
-#mail_postfix="163.com"                     #邮箱的后缀，网易就是163.com  
+max_send = 20   # 一次最多发送邮件的数量
+
 
 #==============================================================================
  
@@ -58,7 +56,7 @@ def send_mail(to_list,sub,content):
     
 #==============================================================================
 
-f = open(os.getcwd()+'\\phdcontent.txt','r')  # 读取正文内容
+f = open(os.getcwd()+'\\phdcontent2.txt','r')  # 读取正文内容
 mailcontent = f.read()
 f.close()
  
@@ -102,7 +100,7 @@ mailto_list = []
 rec_name = []
 rec_univ = []
 rec_major = []
-f = csv.reader(open(os.getcwd()+'\\phdlist.csv')) # 读取收件人 邮箱和姓名信息
+f = csv.reader(open(os.getcwd()+'\\phDCandidate.csv')) # 读取收件人 邮箱和姓名信息
 for rows in f:
     mailto_list.append(rows[1])
     rec_name.append(rows[0])
@@ -128,9 +126,12 @@ rec_major.pop(0)
 
 suc = 0
 fails = 0
-arr = len(rec_name)
+mail_sent = 0
+univ_sent_list = []
+
+arr = np.arange(len(rec_name))
 np.random.shuffle(arr)
-for i in range(len(rec_name)):
+for i in arr:
     
     content = mailcontent.split('XXX')[0] + rec_name[i].split(' ')[-1] + mailcontent.split('XXX')[1]
 #    content = 'Dear Dr. ' + rec_name[i].split(' ')[-1]+'\n' + mailcontent                         #发送1封，上面的列表是几个人，这个就填几  
@@ -148,11 +149,16 @@ for i in range(len(rec_name)):
     cur.execute(sql_find)
     cnt = cur.fetchone()
     time.sleep(10)#睡眠2秒 
-    if(cnt == None):     #若未发送过邮件
+    if mail_sent >= max_send:
+        break
+    
+    if(cnt == None) and (rec_univ[i] not in univ_sent_list):     #若未发送过邮件
         #将该作者信息添加到已发送表格中
         if send_mail(mailto_list[i],mailsub,content):
             print("Mail sent to "+mailto_list[i]+' successfully!')
-            suc = suc + 1
+            suc += 1
+            mail_sent += 1
+            univ_sent_list.append(rec_univ[i])           
               
         # update the table  No. 3
             sql_add = "insert into rec_email_univ(name,email,university,attempt)values("

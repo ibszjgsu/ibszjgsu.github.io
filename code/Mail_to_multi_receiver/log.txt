@@ -1544,3 +1544,20 @@ failed to be received by yang.xing@sekon.slu.se!
 In total, there is 24 messages has been sent successfully while 115 messages can not be sent. 
 End at: 16:29:59
 >>>>>>> 40c9b141056f6bbd956d25f7f9f4c1bf2aa78dc8
+
+ 
+ Date Updating Log on 2018-06-07
+Start from: 17:32:07
+failed to be received by yxu49@uic.edu!
+failed to be received by zli54@illinois.edu!
+failed to be received by chao.xiong@mail.mcgill.ca!
+failed to be received by kinwaichan@g.harvard.edu!
+failed to be received by wz2335@columbia.edu!
+failed to be received by byungjin.hong@mail.mcgill.ca!
+failed to be received by yu.xia3@mail.mcgill.ca!
+failed to be received by xiangding@g.harvard.edu!
+failed to be received by iris.wang@sauder.ubc.ca!
+failed to be received by geoffery.zheng.1@anderson.ucla.edu!
+failed to be received by x.gao3@lse.ac.uk!
+In total, there is 20 messages has been sent successfully while 11 messages can not be sent. 
+End at: 17:42:29

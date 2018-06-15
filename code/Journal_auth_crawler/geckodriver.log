@@ -1,0 +1,208 @@
+1528695666487	geckodriver	INFO	geckodriver 0.20.1
+1528695666496	geckodriver	INFO	Listening on 127.0.0.1:55843
+1528695669499	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.vg0HmSPJ3jkA"
+1528695671526	Marionette	INFO	Listening on port 55852
+1528695671587	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528695724725	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+c/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528733903368	geckodriver	INFO	geckodriver 0.20.1
+1528733903389	geckodriver	INFO	Listening on 127.0.0.1:55692
+1528733906285	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.p3hKSNkiUgmj"
+1528733908375	Marionette	INFO	Listening on port 55700
+1528733909478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528733956607	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: http://work.wanUnable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10216, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10216, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10216, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+tps://pos.baidu.com/ncxm?conwid=250&conhei=250&rdid=1997633&dc=3&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528782440178&ti=%E9%93%BE%E8%B7%AF%E9%A2%84%E6%B5%8B_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&dbv=0&drs=3&pcs=1583x763&pss=1583x1697&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1528782440&prot=2&rw=763&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E9%2593%25BE%25E8%25B7%25AF%25E9%25A2%2584%25E6%25B5%258B%2F304758%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DGCymQ-zm-EKOMe3oRyMM3TnkEa5qSJ457StM6FJubUnSf_8rIMqlmFRDIEejh7Ff4B8OK_8lG89x-TLy6B4S_gIqGdSofYuPDwKWKbH3yv_2UkzCJ0ZwY8wGm8uW42au%26wd%3D%26eqid%3Dbab29a3c000218d0000000025b1f5e5f&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528782440&qn=bf047c44ee779d69&tt=1528782440162.18.556.561, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/ncxm?conwid=250&conhei=250&rdid=1997633&dc=3&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528782440178&ti=%E9%93%BE%E8%B7%AF%E9%A2%84%E6%B5%8B_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&dbv=0&drs=3&pcs=1583x763&pss=1583x1697&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1528782440&prot=2&rw=763&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E9%2593%25BE%25E8%25B7%25AF%25E9%25A2%2584%25E6%25B5%258B%2F304758%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DGCymQ-zm-EKOMe3oRyMM3TnkEa5qSJ457StM6FJubUnSf_8rIMqlmFRDIEejh7Ff4B8OK_8lG89x-TLy6B4S_gIqGdSofYuPDwKWKbH3yv_2UkzCJ0ZwY8wGm8uW42au%26wd%3D%26eqid%3Dbab29a3c000218d0000000025b1f5e5f&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528782440&qn=bf047c44ee779d69&tt=1528782440162.18.556.561, line 119: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9528, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: http://blog.sciencenet.cn/static/js/jquery.lazyload.js line 1 > eval, line 1: ReferenceError: jQuery is not defined
+JavaScript error: http://blog.sciencenet.cn/home.php?mod=space&uid=329471&do=blog&id=318268, line 124: ReferenceError: jQuery is not defined
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://pos.baidu.com/qcjm?conwid=250&conhei=250&rdid=1997633&dc=3&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528783001852&ti=%E5%A4%8D%E6%9D%82%E7%BD%91%E7%BB%9C_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&dbv=0&drs=3&pcs=1583x763&pss=1583x2637&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1528783001&prot=2&rw=763&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E5%25A4%258D%25E6%259D%2582%25E7%25BD%2591%25E7%25BB%259C%2F8282868&ltr=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E9%2593%25BE%25E8%25B7%25AF%25E9%25A2%2584%25E6%25B5%258B%2F304758%3Ffr%3Daladdin&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528783002&qn=bf047c44ee779d69&tt=1528783001835.19.20.21, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/qcjm?conwid=250&conhei=250&rdid=1997633&dc=3&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528783001852&ti=%E5%A4%8D%E6%9D%82%E7%BD%91%E7%BB%9C_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&dbv=0&drs=3&pcs=1583x763&pss=1583x2637&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1528783001&prot=2&rw=763&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E5%25A4%258D%25E6%259D%2582%25E7%25BD%2591%25E7%25BB%259C%2F8282868&ltr=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E9%2593%25BE%25E8%25B7%25AF%25E9%25A2%2584%25E6%25B5%258B%2F304758%3Ffr%3Daladdin&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528783002&qn=bf047c44ee779d69&tt=1528783001835.19.20.21, line 119: unreachable code after return statement
+[Child 7048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript warning: https://pos.baidu.com/sclm?conwid=250&conhei=250&rdid=3079625&dc=3&di=u3079625&Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12680, Chrome_ChildThread] WARNING: pipe error: 109: fileUnable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 13028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7212, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+8794672326.62.142.144, line 119: unreachable code after return statement
+JavaScript warning: https://m.baidu.com/recsys/ui/api/rs?query=%CD%B6%D7%CA%BB%F9%BD%F0%C4%C9%CB%B0%C2%F0&title=%CD%B6%D7%CA%BB%F9%BD%F0%C4%C9%CB%B0%C2%F0&url=https%3A%2F%2Fzhidao.baidu.com%2Fsearch%3Flm%3D0%26rn%3D10%26pn%3D0%26fr%3Dsearch%26ie%3Dgbk%26word%3D%25CD%25B6%25D7%25CA%25BB%25F9%25BD%25F0%25C4%25C9%25CB%25B0%25C2%25F0&ak=ZQ4m31EXvKem1HPYzaK8Ekq6opqfhKFK&pc=1&charset=gbk&contentTitleText=%C8%A5%CD%F8%D2%B3%CB%D1%CB%F7&entityNum=9&tn=SE_PcZhidaoqwyss_e1nmnxgw&random=9619352874451256, line 251: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: https://pos.baidu.com/yclm?conwid=250&conhei=250&rdid=3079625&dc=3&di=u3079625&dri=0&dis=0&dai=1&ps=691x1056&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528794777637&ti=%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%E5%A6%82%E4%BD%95%E7%BA%B3%E7%A8%8E_%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93&ari=2&dbv=0&drs=1&pcs=1583x763&pss=1583x1884&cfv=0&cpl=0&chi=1&cce=true&cec=GBK&tlm=1528794777&prot=2&rw=763&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1836287378917407460.html%3Ffr%3Diks%26word%3D%25CD%25B6%25D7%25CA%25BB%25F9%25BD%25F0%25C4%25C9%25CB%25B0%25C2%25F0%26ie%3Dgbk&ltr=https%3A%2F%2Fzhidao.baidu.com%2Fsearch%3Flm%3D0%26rn%3D10%26pn%3D0%26fr%3Dsearch%26ie%3Dgbk%26word%3D%25CD%25B6%25D7%25CA%25BB%25F9%25BD%25F0%25C4%25C9%25CB%25B0%25C2%25F0&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528794778&qn=605f59048e7762b6&tt=1528794777612.28.28.36, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/yclm?conwid=250&conhei=250&rdid=3079625&dc=3&di=u3079625&dri=0&dis=0&dai=1&ps=691x1056&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528794777637&ti=%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%E5%A6%82%E4%BD%95%E7%BA%B3%E7%A8%8E_%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93&ari=2&dbv=0&drs=1&pcs=1583x763&pss=1583x1884&cfv=0&cpl=0&chi=1&cce=true&cec=GBK&tlm=1528794777&prot=2&rw=763&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1836287378917407460.html%3Ffr%3Diks%26word%3D%25CD%25B6%25D7%25CA%25BB%25F9%25BD%25F0%25C4%25C9%25CB%25B0%25C2%25F0%26ie%3Dgbk&ltr=https%3A%2F%2Fzhidao.baidu.com%2Fsearch%3Flm%3D0%26rn%3D10%26pn%3D0%26fr%3Dsearch%26ie%3Dgbk%26word%3D%25CD%25B6%25D7%25CA%25BB%25F9%25BD%25F0%25C4%25C9%25CB%25B0%25C2%25F0&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528794778&qn=605f59048e7762b6&tt=1528794777612.28.28.36, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/tcum?conwid=250&conhei=250&rdid=3079625&dc=3&di=u3079625&dri=0&dis=0&dai=1&ps=691x1056&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528794813896&ti=%E7%A7%81%E5%8B%9F%E5%9F%BA%E9%87%91%E8%A6%81%E4%BA%A4%E7%A8%8E%E5%90%97%20%E6%8A%95%E8%B5%84%E7%A7%81%E5%8B%9F%E5%9F%BA%E9%87%91%E8%A6%81%E4%BA%A4%E7%A8%8E%E5%90%97_%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93&ari=2&dbv=0&drs=1&pcs=1583x763&pss=1583x2539&cfv=0&cpl=0&chi=1&cce=true&cec=GBK&tlm=1528794813&prot=2&rw=763&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F268300623202085365.html%3Fqbl%3Drelate_question_1%26word%3D%25CD%25B6%25D7%25CA%25BB%25F9%25BD%25F0%25C4%25C9%25CB%25B0%25C2%25F0&ltr=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1836287378917407460.html%3Ffr%3Diks%26word%3D%25CD%25B6%25D7%25CA%25BB%25F9%25BD%25F0%25C4%25C9%25CB%25B0%25C2%25F0%26ie%3Dgbk&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528794814&qn=605f59048e7762b6&tt=1528794813874.33.33.34, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/tcum?conwid=250&conhei=250&rdid=3079625&dc=3&di=u3079625&dri=0&dis=0&dai=1&ps=691x1056&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528794813896&ti=%E7%A7%81%E5%8B%9F%E5%9F%BA%E9%87%91%E8%A6%81%E4%BA%A4%E7%A8%8E%E5%90%97%20%E6%8A%95%E8%B5%84%E7%A7%81%E5%8B%9F%E5%9F%BA%E9%87%91%E8%A6%81%E4%BA%A4%E7%A8%8E%E5%90%97_%E7%99%BE%E5%BA%A6%E7%9F%A5%E9%81%93&ari=2&dbv=0&drs=1&pcs=1583x763&pss=1583x2539&cfv=0&cpl=0&chi=1&cce=true&cec=GBK&tlm=1528794813&prot=2&rw=763&ltu=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F268300623202085365.html%3Fqbl%3Drelate_question_1%26word%3D%25CD%25B6%25D7%25CA%25BB%25F9%25BD%25F0%25C4%25C9%25CB%25B0%25C2%25F0&ltr=https%3A%2F%2Fzhidao.baidu.com%2Fquestion%2F1836287378917407460.html%3Ffr%3Diks%26word%3D%25CD%25B6%25D7%25CA%25BB%25F9%25BD%25F0%25C4%25C9%25CB%25B0%25C2%25F0%26ie%3Dgbk&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528794814&qn=605f59048e7762b6&tt=1528794813874.33.33.34, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/pcgm?conwid=250&conhei=250&rdid=1997633&dc=3&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528811965648&ti=%E7%BA%A2%E7%AD%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&dbv=0&drs=3&pcs=1583x763&pss=1583x1229&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1528811965&prot=2&rw=763&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E7%25BA%25A2%25E7%25AD%25B9%2F2825117%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DVMtZmEe5etWGfVq5aayC9WUg47jRHCfJ-1L8D9056GJVnQKLYj7fW03uZQQelEdAZ8r-Pyf33RiOCyRK8nnVC5U5N2oJiYl32GhyjwlbHHG%26wd%3D%26eqid%3Dcf19bd8b0004ef62000000025b1fd1b5&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528811966&qn=bf047c44ee779d69&tt=1528811965632.19.19.20, line 119: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/pcgm?conwid=250&conhei=250&rdid=1997633&dc=3&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&dcb=___adblockplus&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1528811965648&ti=%E7%BA%A2%E7%AD%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&dbv=0&drs=3&pcs=1583x763&pss=1583x1229&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1528811965&prot=2&rw=763&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E7%25BA%25A2%25E7%25AD%25B9%2F2825117%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DVMtZmEe5etWGfVq5aayC9WUg47jRHCfJ-1L8D9056GJVnQKLYj7fW03uZQQelEdAZ8r-Pyf33RiOCyRK8nnVC5U5N2oJiYl32GhyjwlbHHG%26wd%3D%26eqid%3Dcf19bd8b0004ef62000000025b1fd1b5&ecd=1&uc=1600x860&pis=-1x-1&sr=1600x900&tcn=1528811966&qn=bf047c44ee779d69&tt=1528811965632.19.19.20, line 119: unreachable code after return statement
+JavaScript error: https://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.0/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+[Child 7268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9192, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10472, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528892176149	geckodriver	INFO	geckodriver 0.20.1
+1528892176159	geckodriver	INFO	Listening on 127.0.0.1:62104
+1528892179173	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.1kjrSvIsGdXD"
+1528892181664	Marionette	INFO	Listening on port 62113
+1528892182695	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528892615818	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1528892639338	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+win.cc, line 346
+[Child 6348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528899610403	geckodriver	INFO	geckodriver 0.20.1
+1528899610412	geckodriver	INFO	Listening on 127.0.0.1:54786
+1528899613420	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.rrouzEatbB5z"
+1528899615550	Marionette	INFO	Listening on port 54798
+1528899616598	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528899712186	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1528899733504	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528900788453	geckodriver	INFO	geckodriver 0.20.1
+1528900788462	geckodriver	INFO	Listening on 127.0.0.1:57388
+1528900791461	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.mtocLEanABH5"
+1528900793644	Marionette	INFO	Listening on port 57400
+1528900794614	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528901657316	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9260, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9260, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+(NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5
+Line: 1875, column: 0
+console.error: "Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... \"Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nNetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:521:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nonStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:441:5\nLine: 1875, column: 0"
+[Parent 9352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7
+Line: 1875, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1875\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1875:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:651:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:608:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:702:7\nLine: 1875, column: 0"
+[Parent 9352, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1528906376333	geckodriver	INFO	geckodriver 0.20.1
+1528906376343	geckodriver	INFO	Listening on 127.0.0.1:62178
+1528906379311	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.bBkcYmBce8tL"
+1528906381244	Marionette	INFO	Listening on port 62190
+1528906381488	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528906509408	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1528907010947	geckodriver	INFO	geckodriver 0.20.1
+1528907010956	geckodriver	INFO	Listening on 127.0.0.1:63996
+1528907013950	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.ZiyCHXM4VdES"
+1528939693122	geckodriver	INFO	geckodriver 0.20.1
+1528939693138	geckodriver	INFO	Listening on 127.0.0.1:50561
+1528939696165	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ZJGS-023\\AppData\\Local\\Temp\\rust_mozprofile.Fmte7Pmt26Yr"
+1528939699160	Marionette	INFO	Listening on port 50569
+1528939699345	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528940041849	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1528940065261	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+Unable to read VR Path Registry from C:\Users\ZJGS-023\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\ZJGS-023\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\ZJGS-023\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\ZJGS-023\AppData\Local\openvr\openvrpaths.vrpath

@@ -1,0 +1,83 @@
+
+.icon_fulltext,.icon_OA,.icon_containsOA,.icon_containsabstractOA,.icon_abstract,.icon_noaccess,.arrow-down {  
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height:16px;
+  width:16px;
+  display: inline-block;
+  *display: inline;
+  zoom:1;
+}
+.icon_fulltext{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -0px;
+}
+.icon_fulltext:hover{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -21px;
+}
+.icon_OA{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -42px;
+}
+.icon_OA:hover{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -63px;
+}
+.icon_containsOA{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -84px;
+}
+.icon_containsOA:hover{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -105px;
+}
+.icon_abstract{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -126px;
+}
+.icon_abstract:hover{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -147px;
+}
+.icon_noaccess{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -168px;
+}
+.icon_containsabstractOA{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -189px;
+}
+.icon_containsabstractOA:hover{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -210px;
+}
+.categoryTree{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 9px;
+    height: 9px;
+    float: left;
+    vertical-align: middle;
+    margin-top: 4px;
+    margin-right: 4px;
+    cursor:pointer;
+}
+.categoryTree.Plus{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -231px;
+}
+.categoryTree.Minus{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -245px;
+}
+.newTitleImage{
+  background-image: url('/sd/img/browsePageSpriteVert_1805R1.png');
+  background-position: left -259px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    display:inline-block;
+    width:29px;
+    height:10px;
+    margin-left:7px;
+}
