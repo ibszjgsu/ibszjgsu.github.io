@@ -23,6 +23,11 @@ def table_exist(tab_name):
     res = tab_name in tabnames
     return res
 
+def delete_quot(txt):
+    if '\'' in txt:
+        txt = txt.replace("\'", "")
+    return txt
+
 #连接MySQL数据库
 conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
                        password="11031103",database="journalcontact",charset="utf8")
@@ -35,9 +40,9 @@ cur = conn.cursor()
 #     sql = "create table econometricreviews (id int not null unique auto_increment, \
 # =======
 #==============================================================================
-if not table_exist('ijgt'):
+if not table_exist('Journal_of_Mathematical_Imaging_and_Vision'):
     #build a new table named by the journal title 
-    sql = "create table ijgt (id int not null unique auto_increment, \
+    sql = "create table Journal_of_Mathematical_Imaging_and_Vision (id int not null unique auto_increment, \
          title varchar(300), authors varchar(300), au_email varchar(500),\
          citation varchar(20), volume varchar(20), issue varchar(20), year varchar(20), url varchar(300),\
          primary key(id))"
@@ -72,8 +77,8 @@ pageurlsuffix = '&cacheurlFromRightClick=no'
 # 
 # =======
 #==============================================================================
-pagenum = 17
-pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=1918&SID=7CBEv99zxNizDc45VJs&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
+pagenum = 28
+pageurl ='http://apps.webofknowledge.com/summary.do?product=WOS&colName=WOS&qid=223&SID=7AogHLR749TGsOPTqjG&search_mode=GeneralSearch&formValue(summary_mode)=GeneralSearch&update_back2search_link_param=yes&page='
 
 
 
@@ -109,7 +114,7 @@ for pg in range(1,pagenum + 1):
     paper_auths = re.findall(paper_auths_pat,res.text, re.S)
     
     
-    for i in range(0,len(paper_suburls)):
+    for i in range(len(paper_suburls)):
         # Clean up the suburl
         suburl = paper_suburls[i].replace('&amp','')
         paper_suburl = pageurlprefix+suburl.replace(';','&')+pageurlsuffix
@@ -144,9 +149,9 @@ for pg in range(1,pagenum + 1):
 # =======
 #==============================================================================
 #  >>>>>>> f1d91706b06feaf187937072f5d89fe7e7267133        
-        sql_ins = "insert into ijgt (title, authors, au_email, citation, volume, issue, year, url) \
+        sql_ins = "insert into Journal_of_Mathematical_Imaging_and_Vision (title, authors, au_email, citation, volume, issue, year, url) \
         values ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" %\
-        (paper_titles[i].replace("'","").replace('"',''), paper_auths[i].replace("'","").replace('"',''), paper_email, cites,\
+        (paper_titles[i].replace("'","").replace('"',''), paper_auths[i].replace("'","").replace('"',''), delete_quot(paper_email), cites,\
          paper_vols[i] or 'NULL', iss or 'NULL', paper_dates[i] or 'NULL', paper_suburl)
 
         cur.execute(sql_ins)
