@@ -1561,3 +1561,29 @@ failed to be received by geoffery.zheng.1@anderson.ucla.edu!
 failed to be received by x.gao3@lse.ac.uk!
 In total, there is 20 messages has been sent successfully while 11 messages can not be sent. 
 End at: 17:42:29
+
+ 
+ Date Updating Log on 2018-06-19
+Start from: 13:50:13
+In total, there is 10 messages has been sent successfully while 0 messages can not be sent. 
+End at: 13:52:52
+
+ 
+ Date Updating Log on 2018-06-19
+Start from: 14:00:24
+failed to be received by nju@g.harvard.edu!
+failed to be received by jonah.j.yuen@vanderbilt.edu!
+failed to be received by jiangzhe@uw.edu!
+failed to be received by yj105@georgetown.edu!
+failed to be received by ying.zheng.1@vanderbilt.edu!
+failed to be received by cheng.cheng-4@postgrad.manchester.ac.uk!
+failed to be received by xin.jx.yang@connect.polyu.hk!
+failed to be received by sumin.song@mail.mcgill.ca!
+failed to be received by cw655@drexel.edu!
+failed to be received by lqui@stern.nyu.edu!
+failed to be received by mc1697@georgetown.edu !
+failed to be received by x3ding@ucsd.edu!
+failed to be received by yipeicao@umich.edu!
+failed to be received by bolan@iastate.edu!
+In total, there is 10 messages has been sent successfully while 14 messages can not be sent. 
+End at: 14:06:17

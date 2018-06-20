@@ -34,7 +34,7 @@ def get_ip():
     ip = re.findall(ip_compile,str(data))    #获取所有IP
     port = re.findall(port_compile,str(data))  #获取所有端口
     z = [':'.join(i) for i in zip(ip,port)]  #列表生成式
-    print(z)
+    #print(z)
     #组合IP和端口
     return z
 
@@ -83,7 +83,7 @@ def get_headers():
         }
     return hp
 
-headers = {"user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+#headers = {"user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
 
     # connect to database
 conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
