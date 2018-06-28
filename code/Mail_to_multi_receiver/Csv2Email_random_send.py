@@ -25,7 +25,7 @@ def table_exist(tab_name):
 
 #==============================================================================
   
-max_send = 10   # 一次最多发送邮件的数量
+max_send = 5   # 一次最多发送邮件的数量
 
 
 #==============================================================================
@@ -132,12 +132,14 @@ univ_sent_list = []
 arr = np.arange(len(rec_name))
 np.random.shuffle(arr)
 for i in arr:
-    
-    content = mailcontent.split('XXX')[0] + rec_name[i].split(' ')[-1] + mailcontent.split('XXX')[1]
+    if not rec_name[i].strip().split(' ')[-1]:
+        print('Author surname missing !')
+        break
+    content = mailcontent.split('XXX')[0] + rec_name[i].strip().split(' ')[-1] + mailcontent.split('XXX')[1]
 #    content = 'Dear Dr. ' + rec_name[i].split(' ')[-1]+'\n' + mailcontent                         #发送1封，上面的列表是几个人，这个就填几  
     
     # Check if the author has been in touched (No. 2)
-    receiver = rec_name[i].split(' ')[-1] + ',' + rec_name[i].split(' ')[:-1][0]
+    receiver = rec_name[i].strip().split(' ')[-1] + ',' + rec_name[i].strip().split(' ')[:-1][0]
 #    now_name = info[i][1].split('\'')[1]
 
 #    sql_select = "select * from rec_email2"
@@ -148,7 +150,7 @@ for i in arr:
 #    cur.execute(sql_find, (receiver, receiver))
     cur.execute(sql_find)
     cnt = cur.fetchone()
-    time.sleep(10)#睡眠2秒 
+    time.sleep(20)#睡眠2秒 
     if mail_sent >= max_send:
         break
     
