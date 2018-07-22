@@ -5,6 +5,8 @@ Created on Sat Jun  9 00:08:00 2018
 @author: Ni He
 """
 from selenium import webdriver
+from selenium.webdriver.common.proxy import Proxy
+from selenium.webdriver.common.proxy import ProxyType
 #from selenium.webdriver.common.keys import Keys
 #from selenium.webdriver.common.by import By
 import requests
@@ -13,39 +15,48 @@ import mysql.connector
 import time
 from bs4 import BeautifulSoup
 from random import choice 
+
 proxies = None
 def get_proxy():
     proxy_pool_url = 'http://localhost:5555/random'   
     try:
         res = requests.get(proxy_pool_url)
         if res.status_code == requests.codes.ok:
-            proxies = {'http':'http://'+res.text}
-            print(proxies)
-            #return res.text
+            proxies = {'https':'https://'+res.text}
+            #print(proxies)
+            return proxies
     except ConnectionError:
         return None
     
-def get_valid_proxy():
-    max_try = 20 
-    test_url = "http://ip.chinaz.com/getip.aspx"
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'}
-    tries = 0
-    while True:
-        proxy = get_proxy()
-        proxies = {'https' : 'https://' + proxy + '/'}
-               #'https' : 'https://' + proxy + '/'}
-        try:
-            res = requests.get(test_url, timeout = 3, headers = headers, proxies = proxies)
-            res.encoding = 'utf-8'
-            # 测试IP是否有效，如果有效返回
-            if res.text.split('\'')[1] == proxy.split(':')[0]:
-                return proxies
-        except:
-            tries += 1
-            if tries == max_try:
-                break
-                print('No valid proxies found')
-#headers = {"user-agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"}
+def get_driver():
+
+    proxy_pool_url = 'http://localhost:5555/random'   
+    try:
+        res = requests.get(proxy_pool_url)
+        if res.status_code == requests.codes.ok:
+            ipp = res.text
+    except ConnectionError:
+        get_driver()
+    prof = webdriver.FirefoxProfile()
+    prof.set_preference('signon.autologin.proxy', 'true')
+    prof.set_preference('network.proxy.share_proxy_settings', 'false')
+    prof.set_preference('network.automatic-ntlm-auth.allow-proxies', 'false')
+    prof.set_preference('network.auth.use-sspi', 'false')
+    
+    proxy_data = {'address': ipp,
+                  'usernmae': '',
+                  'password': ''}
+    
+    proxy_dict = {'proxyType': ProxyType.MANUAL,
+                  'httpProxy': proxy_data['address'],
+                  'ftpProxy': proxy_data['address'],
+                  'sslProxy': proxy_data['address'],
+                  'noProxy': ''}
+    
+    proxy_config = Proxy(proxy_dict)
+    
+    #return webdriver.Firefox(executable_path='C:\Program Files (x86)\Mozilla Firefox\geckodriver.exe')
+    return webdriver.Firefox(executable_path='C:\Program Files (x86)\Mozilla Firefox\geckodriver.exe', proxy=proxy_config, firefox_profile=prof)
 
     # connect to database
 conn = mysql.connector.connect(host="10.23.0.2",port=3306,user="root",\
@@ -70,14 +81,19 @@ def table_exist(tab_name):
     return res
 
 def all_issue_of_a_sd_journal(journal_id):
+    global proxies
     # Start from the journal ID
     journal_url = 'https://www.sciencedirect.com/science/journal/' + journal_id #00014575 21735735
     try:
         res = requests.get(journal_url, timeout = 30, headers = headers, proxies = proxies)
         res.encoding = 'utf-8'
         soup = BeautifulSoup(res.text, 'html.parser')
-    except:
-        return None
+    except ConnectionError:
+        proxies = get_proxy()
+        if proxies == None:
+            return None
+        else:
+           all_issue_of_a_sd_journal(journal_id)
     
     # Find all of its issues with their URLs
     pat = soup.find_all(href=re.compile('/issues'))
@@ -86,11 +102,16 @@ def all_issue_of_a_sd_journal(journal_id):
     else:
         jou_all_issue_url = 'https://www.sciencedirect.com' + pat.get('href')
         
-
-    res_issue = requests.get(jou_all_issue_url, timeout = 30, headers = headers, proxies = get_valid_proxy())
-    res_issue.encoding = 'utf-8'
-    soup = BeautifulSoup(res_issue.text, 'html.parser')
-    
+    try:
+        res_issue = requests.get(jou_all_issue_url, timeout = 30, headers = headers, proxies = proxies)
+        res_issue.encoding = 'utf-8'
+        soup = BeautifulSoup(res_issue.text, 'html.parser')
+    except ConnectionError:
+        proxies = get_proxy()
+        if proxies == None:
+            return None
+        else:
+           all_issue_of_a_sd_journal(journal_id)
 
     # Find the number of pages
     if soup.find(class_='pagination-pages-label') == None:
@@ -100,14 +121,14 @@ def all_issue_of_a_sd_journal(journal_id):
     
     url_list = []
 
-    driver = webdriver.Firefox(executable_path='C:\Program Files (x86)\Mozilla Firefox\geckodriver.exe')
+    driver = get_driver()
 
     for p in range(1, pg+1):
         # access different pages in turn
         jou_all_issue_url_new = jou_all_issue_url + '?page=' + str(p)
         # access the page
         try:
-            res_issue = requests.get(jou_all_issue_url_new, timeout = 30, headers = headers, proxies = get_valid_proxy())
+            res_issue = requests.get(jou_all_issue_url_new, timeout = 30, headers = headers, proxies = proxies)
             res_issue.encoding = 'utf-8'
             soup = BeautifulSoup(res_issue.text, 'html.parser')
         except:
@@ -135,12 +156,16 @@ def all_issue_of_a_sd_journal(journal_id):
 def papers_in_an_issue(issue_url):
     # issue_url should be a single URL
     try:
-        res = requests.get(issue_url, timeout = 30, headers = headers, proxies = get_valid_proxy())
+        res = requests.get(issue_url, timeout = 30, headers = headers, proxies = proxies)
         res.encoding = 'utf-8'
         soup = BeautifulSoup(res.text, 'html.parser')
-    except:
-        return None
-    
+    except ConnectionError:
+        proxies = get_proxy()
+        if proxies == None:
+            return None
+        else:
+           papers_in_an_issue(issue_url)
+           
     urls = soup.find_all(class_='anchor article-content-title u-margin-top-xs u-margin-bottom-s')
     url_list = []
     for url in urls:
@@ -148,35 +173,21 @@ def papers_in_an_issue(issue_url):
         
     return url_list
 
-def collect_from_paper(paper_url):
 
-    try:
-        res = requests.get(paper_url, timeout = 30, headers = headers, proxies = get_valid_proxy())
-        res.encoding = 'utf-8'
-        soup = BeautifulSoup(res.text, 'html.parser')   
-        journal_info = {}
-        journal_info['url'] = paper_url
-        journal_info['article_title'] = soup.find(class_='svTitle').text
-        journal_info['volume'] = soup.find(class_='volIssue').text.split(',')[0].strip().split(' ')[-1]
-        journal_info['year'] = soup.find(class_='volIssue').text.split(',')[1].strip().split(' ')[-1]
-        journal_info['pages'] = soup.find(class_='volIssue').text.split(',')[2].strip().split(' ')[-1]
-        journal_info['name'] = ', '.join([au.text.replace('\'','’') for au in soup.find_all(class_='authorName svAuthor')])
-        journal_info['emails'] = ', '.join([e.get('href').split(':')[-1] for e in soup.find_all(class_='auth_mail')])
-        journal_info['abstract'] = soup.find(class_='abstract svAbstract ').text.replace('\'','’').replace('\u202f', ' ')
-        journal_info['issue'] = 'Null'
-        #journal_info['keys'] = soup.find(class_='keyword').text.replace('\'','’')
-        # some key words part may missed up with Abbreviations
-        journal_info['keys'] = ' '.join([it.find_next().text for it in soup.find_all('h2',class_='svKeywords') if it.text == 'Keywords'])
-        return journal_info
-    except:
-        return None
-
+            
 def collect_from_paper2(paper_url):
 
     try:
-        res = requests.get(paper_url, timeout = 30, headers = headers, proxies = get_valid_proxy())
+        res = requests.get(paper_url, timeout = 30, headers = headers, proxies = proxies)
         res.encoding = 'utf-8'
         soup = BeautifulSoup(res.text, 'html.parser')   
+    except ConnectionError:
+        proxies = get_proxy()
+        if proxies == None:
+            return None
+        else:
+            collect_from_paper2(paper_url)    
+    try:         
         journal_info = {}
         journal_info['url'] = paper_url
         journal_info['article_title'] = soup.find(class_='title-text').text.replace('\'','’')
@@ -206,11 +217,26 @@ def collect_from_paper2(paper_url):
             tmp = [it.find_all(class_='keyword')  for it in soup.find_all(class_='keywords-section') if it.find(class_='section-title').text[:3] in 'Keywords'][0]
             journal_info['keys'] = ', '.join([t.text for t in tmp])
         except:
-            journal_info['keys'] = 'Null'
-        
+            journal_info['keys'] = 'Null'      
         return journal_info
-    except:
-        return None
+    except AttributeError:
+        try:
+            journal_info = {}
+            journal_info['url'] = paper_url
+            journal_info['article_title'] = soup.find(class_='svTitle').text
+            journal_info['volume'] = soup.find(class_='volIssue').text.split(',')[0].strip().split(' ')[-1]
+            journal_info['year'] = soup.find(class_='volIssue').text.split(',')[1].strip().split(' ')[-1]
+            journal_info['page'] = soup.find(class_='volIssue').text.split(',')[2].strip().split(' ')[-1]
+            journal_info['name'] = ', '.join([au.text.replace('\'','’') for au in soup.find_all(class_='authorName svAuthor')])
+            journal_info['emails'] = ', '.join([e.get('href').split(':')[-1] for e in soup.find_all(class_='auth_mail')])
+            journal_info['abstract'] = soup.find(class_='abstract svAbstract ').text.replace('\'','’').replace('\u202f', ' ')
+            journal_info['issue'] = 'Null'
+            #journal_info['keys'] = soup.find(class_='keyword').text.replace('\'','’')
+            # some key words part may missed up with Abbreviations
+            journal_info['keys'] = ' '.join([it.find_next().text for it in soup.find_all('h2',class_='svKeywords') if it.text == 'Keywords'])
+            return journal_info
+        except:
+            return None
 
 
 def load_into_database(journal_name, journal_info):
@@ -244,11 +270,13 @@ def load_into_database(journal_name, journal_info):
         time.sleep(2)
     
     return
-'''
+
 sql = "select * from sciencedirect_humanity where status = 0"
 cur.execute(sql)
 j_lists = cur.fetchall()
+
 for j_list in j_lists:
+    proxies = get_proxy()
     journal_id = j_list[1].split('/')[-1]
     journal_name = j_list[0]
     print('Start to collect information from: ' + journal_name)
@@ -256,12 +284,13 @@ for j_list in j_lists:
     #journal_id = '09598022'
     url_issue_list = all_issue_of_a_sd_journal(journal_id)
     for iss in url_issue_list:  # all issues
+        proxies = get_proxy()
         url_paper_list = papers_in_an_issue(iss)
         time_start = time.time()
         for url in url_paper_list:  # for each issue (volume)
             journal_info = collect_from_paper2(url)
-            if journal_info is None:
-                journal_info = collect_from_paper(url)
+#            if journal_info is None:
+#                journal_info = collect_from_paper(url)
             if journal_info is not None and (not journal_info['article_title'] == 'Editorial') and (not journal_info['article_title'] == 'Editorial Board'):
                 load_into_database(journal_name, journal_info)
             else:
@@ -269,14 +298,3 @@ for j_list in j_lists:
         print('Papers in one issue has been stored.. it takes %s secs.' % (time.time()-time_start))
         
     # Change the status as information in one journal has been collected in full
-'''
-get_proxy()
-print('pro is ',pro)
-
-sql = "select * from sciencedirect_humanity where status = 0"
-cur.execute(sql)
-j_lists = cur.fetchall()
-j_list = j_lists[0]
-journal_id = j_list[1].split('/')[-1]
-
-all_issue_of_a_sd_journal(journal_id)

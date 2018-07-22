@@ -2024,3 +2024,389 @@ End at: 14:35:22
 Start from: 09:13:57
 In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
 End at: 09:17:37
+
+ 
+ Date Updating Log on 2018-06-28
+Start from: 10:37:30
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 10:40:17
+
+ 
+ Date Updating Log on 2018-06-28
+Start from: 13:24:30
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 13:27:54
+
+ 
+ Date Updating Log on 2018-06-28
+Start from: 13:48:43
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 13:53:05
+
+ 
+ Date Updating Log on 2018-06-28
+Start from: 15:37:45
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 15:42:47
+
+ 
+ Date Updating Log on 2018-06-29
+Start from: 08:44:01
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:46:42
+
+ 
+ Date Updating Log on 2018-06-29
+Start from: 09:16:16
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:20:54
+
+ 
+ Date Updating Log on 2018-06-29
+Start from: 09:47:32
+failed to be received by rw495@cam.ac.uk!
+failed to be received by yxu49@uic.edu!
+failed to be received by xu129@ucla.edu!
+failed to be received by zhenping.wang@emory.edu!
+failed to be received by tongtong.hao@mail.utoronto.ca!
+failed to be received by rallye.shen@mail.utoronto.ca!
+failed to be received by r.xu@miami.edu!
+failed to be received by erhao.xie@mail.utoronto.ca!
+failed to be received by q29tang@uwaterloo.ca!
+failed to be received by jinfei.sheng@sauder.ubc.ca!
+failed to be received by c.qiu@lse.ac.uk!
+In total, there is 5 messages has been sent successfully while 11 messages can not be sent. 
+End at: 09:56:37
+
+ 
+ Date Updating Log on 2018-06-29
+Start from: 09:56:37
+failed to be received by bolun.li@rice.edu!
+failed to be received by jinshuny@broad.msu.edu!
+failed to be received by q29tang@uwaterloo.ca!
+failed to be received by yiyang.wu@mail.utoronto.ca!
+failed to be received by yfan@uw.edu!
+failed to be received by jiehong.qiu@wsu.edu!
+failed to be received by jc14ag@my.fsu.edu!
+failed to be received by zhanlin@galton.uchicago.edu!
+failed to be received by atc22@uw.edu!
+failed to be received by ching-chuan.wang@sauder.ubc.ca!
+failed to be received by limin.fang@mail.utoronto.ca!
+failed to be received by rallye.shen@mail.utoronto.ca!
+failed to be received by yuqing.zhou.1@anderson.ucla.edu!
+failed to be received by bgao@bu.edu!
+failed to be received by wpan5@uic.edu!
+failed to be received by ruiqingcao@fas.harvard.edu!
+failed to be received by khsueh@stern.nyu.edu!
+failed to be received by ywang426@illinois.edu!
+failed to be received by tengwu2@illinois.edu!
+failed to be received by jiangyt@hku.hk!
+failed to be received by qingqing.yang@wsu.edu!
+failed to be received by wenjuan.chen@fu-berlin.de!
+failed to be received by zchen05@uw.edu!
+failed to be received by ysong44@illinois.edu!
+failed to be received by ziqih@uw.edu!
+failed to be received by hang.zheng@mail.utoronto.ca!
+failed to be received by yuxin@galton.uchicago.edu!
+failed to be received by cxu@fas.harvard.edu!
+failed to be received by erhao.xie@mail.utoronto.ca!
+failed to be received by wyin5@illinois.edu!
+failed to be received by c.he1@lse.ac.uk!
+failed to be received by as148@soas.ac.uk!
+failed to be received by cw622@cam.ac.uk!
+failed to be received by senma2@illinois.edu!
+failed to be received by tuo.chen@columbia.edu!
+failed to be received by yehan@bu.edu!
+failed to be received by neway.liang@gmail.com!
+failed to be received by zmai@ncsu.edu!
+failed to be received by tao@econ.umd.edu!
+failed to be received by xiangding@g.harvard.edu!
+failed to be received by zhu.chen@mail.mcgill.ca!
+failed to be received by myu17@illinois.edu!
+failed to be received by derek.chan2@mail.mcgill.ca!
+failed to be received by ld.wang@mail.utoronto.ca!
+failed to be received by c38wong@uwaterloo.ca!
+In total, there is 5 messages has been sent successfully while 45 messages can not be sent. 
+End at: 10:37:49
+
+ 
+ Date Updating Log on 2018-06-29
+Start from: 10:37:49
+failed to be received by yaping.zheng@mail.mcgill.ca!
+failed to be received by tuo.chen@columbia.edu!
+failed to be received by zengzht@bu.edu!
+failed to be received by C.Sun@tilburguniversity.edu!
+failed to be received by mengxu1219@gmail.com!
+failed to be received by ysong44@illinois.edu!
+failed to be received by yshi2@stern.nyu.edu!
+failed to be received by x776wang@uwaterloo.ca!
+failed to be received by u3005229@hku.hk!
+failed to be received by rzhuo@g.harvard.edu!
+failed to be received by bernard.li@connect.polyu.hk!
+failed to be received by shuoj@uw.edu!
+failed to be received by he.wang001@email.ucr.edu!
+failed to be received by iris.wang@sauder.ubc.ca!
+failed to be received by c.he1@lse.ac.uk!
+failed to be received by weisun@fas.harvard.edu!
+failed to be received by jjcong89@hku.hk!
+failed to be received by jenny.chang@connect.polyu.hk!
+failed to be received by jennyqianran.jin@mail.mcgill.ca!
+failed to be received by robintu2@illinois.edu!
+failed to be received by youyang4@illinois.edu!
+failed to be received by w.ding@lse.ac.uk!
+failed to be received by jzy@stanford.edu!
+failed to be received by liyida@uw.edu!
+failed to be received by jocelynw@uw.edu!
+failed to be received by xiaxinwang@ucsd.edu!
+failed to be received by wanyu.li@mail.mcgill.ca!
+failed to be received by yongrui@galton.uchicago.edu!
+failed to be received by ycchen62@uw.edu!
+failed to be received by rwang52@illinois.edu!
+failed to be received by lgan6@illinois.edu!
+failed to be received by xingye.wu@columbia.edu!
+failed to be received by stephaniecheng@g.harvard.edu!
+failed to be received by xl345@drexel.edu!
+failed to be received by bumengzhuo@galton.uchicago.edu!
+failed to be received by tengwu2@illinois.edu!
+failed to be received by ziqih@uw.edu!
+failed to be received by l.shen_2@tilburguniversity.edu!
+failed to be received by haohua.xu@mail.mcgill.ca!
+failed to be received by cw622@cam.ac.uk!
+failed to be received by xinranli@fas.harvard.edu!
+failed to be received by x.gao3@lse.ac.uk!
+failed to be received by yw545@drexel.edu!
+failed to be received by xtang4@gsu.edu!
+failed to be received by tao@econ.umd.edu!
+failed to be received by derek.chan2@mail.mcgill.ca!
+failed to be received by zhenping.wang@emory.edu!
+failed to be received by x.hui@lse.ac.uk!
+failed to be received by rgong@fas.harvard.edu!
+failed to be received by sophie.calderwang@gmail.com!
+failed to be received by zhipeng.li.1@anderson.ucla.edu!
+failed to be received by yehan@bu.edu!
+failed to be received by c.qiu@lse.ac.uk!
+failed to be received by dt474@drexel.edu!
+failed to be received by ywang426@illinois.edu!
+failed to be received by hy297@georgetown.edu!
+failed to be received by ys383@georgetown.edu!
+failed to be received by liyanshi@g.ucla.edu!
+failed to be received by ly184@georgetown.edu !
+failed to be received by mc1697@georgetown.edu !
+failed to be received by hy360@georgetown.ed!
+failed to be received by liaxu@uw.edu!
+failed to be received by kwongyuw@uw.edu!
+failed to be received by q29tang@uwaterloo.ca!
+failed to be received by kel6@illinois.edu!
+failed to be received by geoffery.zheng.1@anderson.ucla.edu!
+failed to be received by hshi@stern.nyu.edu!
+failed to be received by zchen05@uw.edu!
+failed to be received by wz2335@columbia.edu!
+failed to be received by myu17@illinois.edu!
+failed to be received by zhu.chen@mail.mcgill.ca!
+failed to be received by neway.liang@gmail.com!
+failed to be received by yfan@uw.edu!
+failed to be received by wpan5@uic.edu!
+In total, there is 5 messages has been sent successfully while 74 messages can not be sent. 
+End at: 11:41:44
+
+ 
+ Date Updating Log on 2018-06-29
+Start from: 14:55:20
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 14:59:18
+
+ 
+ Date Updating Log on 2018-07-02
+Start from: 15:33:49
+
+ 
+ Date Updating Log on 2018-07-03
+Start from: 10:50:27
+
+ 
+ Date Updating Log on 2018-07-03
+Start from: 13:47:00
+
+ 
+ Date Updating Log on 2018-07-03
+Start from: 16:21:18
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 16:24:42
+
+ 
+ Date Updating Log on 2018-07-03
+Start from: 16:39:59
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 16:43:11
+
+ 
+ Date Updating Log on 2018-07-04
+Start from: 08:13:45
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:17:07
+
+ 
+ Date Updating Log on 2018-07-04
+Start from: 08:18:07
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:26:11
+
+ 
+ Date Updating Log on 2018-07-04
+Start from: 08:42:32
+failed to be received by jenny.chang@connect.polyu.hk!
+failed to be received by cxu@fas.harvard.edu!
+failed to be received by shushen@ucdavis.edu!
+failed to be received by l.shen_2@tilburguniversity.edu!
+failed to be received by x3ding@ucsd.edu!
+failed to be received by lkchen@galton.uchicago.edu!
+failed to be received by sunl@galton.uchicago.edu!
+failed to be received by jiadan29@hku.hk!
+failed to be received by yang423q.wang@connect.polyu.hk!
+failed to be received by chao.xiong@mail.mcgill.ca!
+failed to be received by atc22@uw.edu!
+failed to be received by limin.fang@mail.utoronto.ca!
+failed to be received by rui.luo2@wsu.edu!
+failed to be received by gongss@hku.hk!
+failed to be received by qlchen@uw.edu!
+failed to be received by rzhuo@g.harvard.edu!
+failed to be received by zhipeng.li.1@anderson.ucla.edu!
+failed to be received by zhaoran.gong@connect.polyu.hk!
+failed to be received by ashleyli@hku.hk!
+failed to be received by siyuan.yan@connect.polyu.hk!
+failed to be received by yfan@uw.edu!
+failed to be received by u3005230@connect.hku.hk!
+failed to be received by xiao-xu.ling@connect.polyu.hk!
+failed to be received by ruifan2@illinois.edu !
+failed to be received by yiyang.wu@mail.utoronto.ca!
+failed to be received by jiangyt@hku.hk!
+failed to be received by alex.yi.wang@connect.polyu.hk!
+failed to be received by kh89@uw.edu!
+failed to be received by cw622@cam.ac.uk!
+failed to be received by jiachengwang@galton.uchicago.edu!
+failed to be received by byungjin.hong@mail.mcgill.ca!
+In total, there is 5 messages has been sent successfully while 31 messages can not be sent. 
+End at: 09:10:40
+
+ 
+ Date Updating Log on 2018-07-04
+Start from: 13:47:32
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 13:50:51
+
+ 
+ Date Updating Log on 2018-07-04
+Start from: 14:30:26
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 14:34:54
+
+ 
+ Date Updating Log on 2018-07-04
+Start from: 16:45:07
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 16:48:57
+
+ 
+ Date Updating Log on 2018-07-06
+Start from: 08:52:38
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:55:20
+
+ 
+ Date Updating Log on 2018-07-06
+Start from: 09:13:34
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:18:01
+
+ 
+ Date Updating Log on 2018-07-06
+Start from: 10:58:47
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 11:02:36
+
+ 
+ Date Updating Log on 2018-07-06
+Start from: 13:29:16
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 13:32:59
+
+ 
+ Date Updating Log on 2018-07-06
+Start from: 14:31:09
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 14:36:10
+
+ 
+ Date Updating Log on 2018-07-06
+Start from: 14:36:10
+failed to be received by youyang4@illinois.edu!
+failed to be received by wyin5@illinois.edu!
+failed to be received by yx27@rice.edu!
+failed to be received by l.shen_2@tilburguniversity.edu!
+failed to be received by congfei.li@mail.utoronto.ca!
+failed to be received by xiaoqin.li@connect.polyu.hk!
+failed to be received by khsueh@stern.nyu.edu!
+failed to be received by yizhi.wang@postgrad.manchester.ac.uk!
+failed to be received by xiangding@g.harvard.edu!
+failed to be received by czhu@stanford.edu!
+failed to be received by h.guan@umiami.edu!
+failed to be received by h0519758@hku.hk!
+failed to be received by sumin.song@mail.mcgill.ca!
+failed to be received by u3005229@hku.hk!
+failed to be received by jie.fang@mail.utoronto.ca!
+failed to be received by linkun.ma@connect.polyu.hk!
+failed to be received by fuyaoli@hku.hk!
+failed to be received by cw622@cam.ac.uk!
+failed to be received by mbao@hku.hk!
+failed to be received by dong.cheng@vanderbilt.edu!
+failed to be received by shaoyangning@fas.harvard.edu!
+failed to be received by chao.xiong@mail.mcgill.ca!
+failed to be received by huihp@hku.hk!
+failed to be received by feixue4@illinois.edu!
+failed to be received by ke.hu@connect.polyu.hk!
+failed to be received by wenjuan.chen@fu-berlin.de!
+failed to be received by qingqing.yang@wsu.edu!
+failed to be received by xiao-xu.ling@connect.polyu.hk!
+failed to be received by hang.zheng@mail.utoronto.ca!
+failed to be received by yu.shi.1@anderson.ucla.edu!
+failed to be received by kel6@illinois.edu!
+failed to be received by xxl155@psu.edu!
+failed to be received by y.hu21@lse.ac.uk!
+failed to be received by erhao.xie@mail.utoronto.ca!
+failed to be received by ashleyli@hku.hk!
+failed to be received by linxiao.cong@mail.mcgill.ca!
+failed to be received by pinhanchen@galton.uchicago.edu!
+failed to be received by sli13@masonlive.gmu.edu!
+failed to be received by limin.fang@mail.utoronto.ca!
+failed to be received by bgao@bu.edu!
+failed to be received by ruiqingcao@fas.harvard.edu!
+failed to be received by yxu49@uic.edu!
+failed to be received by xingye.wu@columbia.edu!
+failed to be received by mengxu1219@gmail.com!
+failed to be received by yang04@g.harvard.edu!
+failed to be received by wz2335@columbia.edu!
+failed to be received by jc14ag@my.fsu.edu!
+failed to be received by spaull.lim@mail.utoronto.ca!
+failed to be received by xiaoh.li@connect.polyu.hk!
+failed to be received by syun13@illinois.edu!
+failed to be received by jinfei.sheng@sauder.ubc.ca!
+failed to be received by jiadan29@hku.hk!
+failed to be received by evan.zhou@mail.mcgill.ca!
+failed to be received by zhu.chen@mail.mcgill.ca!
+failed to be received by u3005230@connect.hku.hk!
+failed to be received by neway.liang@gmail.com!
+failed to be received by ds3287@drexel.edu!
+In total, there is 5 messages has been sent successfully while 57 messages can not be sent. 
+End at: 15:50:46
+
+ 
+ Date Updating Log on 2018-07-11
+Start from: 09:58:19
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 10:05:40
+
+ 
+ Date Updating Log on 2018-07-11
+Start from: 10:38:33
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 10:45:00
