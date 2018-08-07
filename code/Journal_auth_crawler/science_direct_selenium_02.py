@@ -32,27 +32,16 @@ def save_db(pd_data, param):
 def init_web_driver():
     global driver
     chrome_options = Options()
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--disable-gpu')
+    prefs = {"profile.managed_default_content_settings.images": 2}
+    chrome_options.add_experimental_option("prefs", prefs)
+    chrome_options.add_argument('disable-infobars')
+    chrome_options.add_argument('headless')
+    chrome_options.add_argument('disable-gpu')
     driver = webdriver.Chrome(chrome_options=chrome_options)
     
 def close_web_driver():
     driver.quit()
     
-#def login_taobao(username, pw):
-#    driver.get("https://member1.taobao.com/member/fresh/deliver_address.htm?spm=a1z08.2.0.0.7dad47611Wnj46")
-#    #选择登陆方式
-#    driver.find_element_by_xpath("//*[@id=\"J_Quick2Static\"]").click()
-# 
-#    #登陆
-#    input_user = driver.find_element_by_xpath("//*[@id=\"TPL_username_1\"]")
-#    input_user.clear()
-#    input_user.send_keys(username)
-#    
-#    driver.find_element_by_xpath("//*[@id=\"TPL_password_1\"]").send_keys(pw)
-#    driver.find_element_by_xpath("//*[@id=\"J_SubmitStatic\"]").click();
-#    
-#    time.sleep(0.5)
 
 def collect_paper_info(paper_url_in_a_journal):
     # paper_url_in_a_journal should be a pd contain: 'url_list' which is the url of individual paper
@@ -173,6 +162,21 @@ def paper_info_parser(paper_url_list):
     save_db(paper_info, param)
     # print the process
     print('Journal %s has been store into database.' % jour_name)
+    
+    '''
+    sql = 'select * from sciencedirect_humanity'
+    journal_list = pd.read_sql_query(sql,engine)
+    j_list = journal_list.loc[journal_list.status == 0]
+    first_valid_id = j_list.iloc[0,:]['journal_url'].split('journal/')[1]
+    urls_in_a_journal = paper_url_list.loc[paper_url_list.id == first_valid_id]
+    # get their information
+    paper_info = collect_paper_info(urls_in_a_journal)
+    jour_name = find_journal_name(first_valid_id, journal_name_list)   
+    journal_list.loc[journal_list.journal_url == 'https://www.sciencedirect.com/science/journal/'+first_valid_id] = 1
+    param = {'table': jour_name, 'db': 'science_direct', 'if_exists':'replace'}
+    save_db(paper_info, param)
+    save_db(journal_list, param )
+    '''
     
 
 if __name__ == "__main__":

@@ -1,0 +1,13 @@
+def 
+fname = os.getcwd() + '\\log.txt'
+flog = open(fname, 'a+')
+flog.writelines('\n \n Date Updating Log on ' + time.strftime('%Y-%m-%d',time.localtime(time.time())) + '\n')
+flog.close()
+
+
+print('\033[0;32m content has been updated competely' + '\033[0m') green
+
+print('\033[0;31m content has been updated competely' + '\033[0m') red
+
+
+time.strftime('%Y-%m-%d at %H:%M:%S ',time.localtime(time.time()))
