@@ -2410,3 +2410,359 @@ End at: 10:05:40
 Start from: 10:38:33
 In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
 End at: 10:45:00
+
+ 
+ Date Updating Log on 2018-07-23
+Start from: 14:56:32
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 15:01:14
+
+ 
+ Date Updating Log on 2018-07-23
+Start from: 15:16:19
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 15:25:01
+
+ 
+ Date Updating Log on 2018-09-05
+Start from: 08:22:22
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:29:28
+
+ 
+ Date Updating Log on 2018-09-05
+Start from: 09:06:17
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:11:41
+
+ 
+ Date Updating Log on 2018-09-06
+Start from: 08:13:13
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:23:01
+
+ 
+ Date Updating Log on 2018-09-06
+Start from: 09:06:25
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:09:47
+
+ 
+ Date Updating Log on 2018-09-07
+Start from: 08:42:44
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:50:37
+
+ 
+ Date Updating Log on 2018-09-07
+Start from: 09:03:44
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:15:56
+
+ 
+ Date Updating Log on 2018-09-10
+Start from: 14:31:35
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 14:40:57
+
+ 
+ Date Updating Log on 2018-09-10
+Start from: 16:28:09
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 16:34:12
+
+ 
+ Date Updating Log on 2018-09-11
+Start from: 08:52:38
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:59:58
+
+ 
+ Date Updating Log on 2018-09-11
+Start from: 09:08:04
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:17:35
+
+ 
+ Date Updating Log on 2018-09-11
+Start from: 10:20:18
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 10:33:00
+
+ 
+ Date Updating Log on 2018-09-11
+Start from: 13:45:55
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 13:53:28
+
+ 
+ Date Updating Log on 2018-09-12
+Start from: 08:17:43
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:25:57
+
+ 
+ Date Updating Log on 2018-09-12
+Start from: 10:13:09
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 10:28:10
+
+ 
+ Date Updating Log on 2018-09-12
+Start from: 10:31:23
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 10:43:47
+
+ 
+ Date Updating Log on 2018-09-13
+Start from: 08:32:17
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:38:30
+
+ 
+ Date Updating Log on 2018-09-13
+Start from: 09:22:24
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:33:47
+
+ 
+ Date Updating Log on 2018-09-13
+Start from: 09:39:33
+failed to be received by ycchen62@uw.edu!
+failed to be received by LiT@darden.virginia.edu!
+failed to be received by wur114@psu.edu!
+failed to be received by ms2375@cam.ac.uk!
+failed to be received by tuo.chen@columbia.edu!
+failed to be received by y.yi3@lse.ac.uk!
+failed to be received by haorubin@baf.cuhk.edu.hk!
+failed to be received by feixue4@illinois.edu!
+failed to be received by zilu.shan@hec.edu!
+failed to be received by xiao-xu.ling@connect.polyu.hk!
+failed to be received by xiaohua.wu@duke.edu!
+failed to be received by wanglin@baf.cuhk.edu.hk!
+failed to be received by c.he@uvt.nl!
+failed to be received by erhao.xie@mail.utoronto.ca!
+failed to be received by huilan.xu@mail.utoronto.ca!
+failed to be received by jzy@stanford.edu!
+failed to be received by xuejing@baf.cuhk.edu.hk!
+failed to be received by sl736@cam.ac.uk!
+failed to be received by rgong@fas.harvard.edu!
+failed to be received by kel6@illinois.edu!
+failed to be received by qingqing.yang@wsu.edu!
+failed to be received by xiaxinwang@ucsd.edu!
+failed to be received by hwang@diw.de!
+failed to be received by yuanfang@g.harvard.edu!
+failed to be received by hao.xu@email.ucr.edu!
+failed to be received by stephaniecheng@g.harvard.edu!
+failed to be received by xinranli@fas.harvard.edu!
+failed to be received by czhu@stanford.edu!
+failed to be received by chao.xiong@mail.mcgill.ca!
+failed to be received by yx27@rice.edu!
+failed to be received by sumin.song@mail.mcgill.ca!
+failed to be received by dong.cheng@vanderbilt.edu!
+failed to be received by ke.hu@connect.polyu.hk!
+failed to be received by xxl155@psu.edu!
+failed to be received by evan.zhou@mail.mcgill.ca!
+failed to be received by ywsoon@g.harvard.edu!
+failed to be received by zhu.chen@mail.mcgill.ca!
+failed to be received by c.qiu@lse.ac.uk!
+failed to be received by mjhong@uwaterloo.ca!
+failed to be received by wz2335@columbia.edu!
+failed to be received by l.shen_2@tilburguniversity.edu!
+failed to be received by y.chen@yale.edu!
+failed to be received by sunl@galton.uchicago.edu!
+failed to be received by fan.wang1@hec.edu!
+failed to be received by yue.ur.hu@connect.polyu.hk!
+failed to be received by junjun.xu@connect.polyu.hk!
+failed to be received by yuan.xue@duke.edu!
+failed to be received by syun13@illinois.edu!
+failed to be received by xingye.wu@columbia.edu!
+failed to be received by pinhanchen@galton.uchicago.edu!
+failed to be received by qili@uchicago.edu!
+failed to be received by atc22@uw.edu!
+failed to be received by wangzn@uw.edu!
+failed to be received by liyida@uw.edu!
+failed to be received by jin.xu@connect.polyu.hk!
+failed to be received by byungjin.hong@mail.mcgill.ca!
+failed to be received by bxing@uwaterloo.ca!
+failed to be received by ruiqingcao@fas.harvard.edu!
+failed to be received by jingxianecon@gmail.com!
+failed to be received by yang04@g.harvard.edu!
+failed to be received by jie.fang@mail.utoronto.ca!
+failed to be received by linxi.chen@duke.edu!
+failed to be received by kinwaichan@g.harvard.edu!
+failed to be received by xuening2@uic.edu!
+failed to be received by haohua.xu@mail.mcgill.ca!
+failed to be received by xiaoh.li@connect.polyu.hk!
+In total, there is 5 messages has been sent successfully while 66 messages can not be sent. 
+End at: 12:47:05
+
+ 
+ Date Updating Log on 2018-09-14
+Start from: 08:51:19
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:06:27
+
+ 
+ Date Updating Log on 2018-09-14
+Start from: 09:56:12
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 10:22:14
+
+ 
+ Date Updating Log on 2018-09-18
+Start from: 15:08:42
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 15:17:52
+
+ 
+ Date Updating Log on 2018-09-18
+Start from: 15:17:52
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 15:26:33
+
+ 
+ Date Updating Log on 2018-09-19
+Start from: 09:41:51
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:59:22
+
+ 
+ Date Updating Log on 2018-09-19
+Start from: 11:15:28
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 11:23:04
+
+ 
+ Date Updating Log on 2018-09-20
+Start from: 08:32:10
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:58:25
+
+ 
+ Date Updating Log on 2018-09-20
+Start from: 09:02:43
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:30:25
+
+ 
+ Date Updating Log on 2018-09-25
+Start from: 15:32:47
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 15:49:12
+
+ 
+ Date Updating Log on 2018-09-25
+Start from: 16:18:43
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 16:34:04
+
+ 
+ Date Updating Log on 2018-09-26
+Start from: 08:57:56
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:17:37
+
+ 
+ Date Updating Log on 2018-09-26
+Start from: 13:14:07
+failed to be received by to301@cam.ac.uk!
+failed to be received by jyanah@connect.ust.hk!
+failed to be received by jiachengwang@galton.uchicago.edu!
+failed to be received by anran@baf.cuhk.edu.hk!
+failed to be received by ?wyangaq@connect.ust.hk!
+failed to be received by yuan.xue@duke.edu!
+failed to be received by yzhangdc@connect.ust.hk!
+failed to be received by qzhangag@connect.ust.hk!
+failed to be received by hwang@diw.de!
+failed to be received by dong.cheng@vanderbilt.edu!
+failed to be received by ruiqingcao@fas.harvard.edu!
+failed to be received by kmaoaa@connect.ust.hk!
+failed to be received by ?wyangaq@connect.ust.hk!
+failed to be received by jingxianecon@gmail.com!
+failed to be received by jshon@connect.ust.hk !
+failed to be received by hao.xu@email.ucr.edu!
+failed to be received by junjun.xu@connect.polyu.hk!
+failed to be received by bwangah@connect.ust.hk!
+failed to be received by ychenci@connect.ust.hk!
+failed to be received by c.qiu@lse.ac.uk!
+failed to be received by qzhangag@connect.ust.hk!
+failed to be received by jyanah@connect.ust.hk!
+failed to be received by jshon@connect.ust.hk !
+failed to be received by u3005229@hku.hk!
+failed to be received by xinranli@fas.harvard.edu!
+failed to be received by kmaoaa@connect.ust.hk!
+failed to be received by yhuangav@ust.hk!
+failed to be received by ke.hu@connect.polyu.hk!
+failed to be received by wangzn@uw.edu!
+failed to be received by xuening2@uic.edu!
+failed to be received by tuo.chen@columbia.edu!
+failed to be received by ywsoon@g.harvard.edu!
+failed to be received by yue.ur.hu@connect.polyu.hk!
+failed to be received by evan.zhou@mail.mcgill.ca!
+failed to be received by huihp@hku.hk!
+failed to be received by yhongaa@connect.ust.hk!
+failed to be received by rgong@fas.harvard.edu!
+failed to be received by xingye.wu@columbia.edu!
+failed to be received by yhongaa@connect.ust.hk!
+failed to be received by mbao@hku.hk!
+failed to be received by c.he@uvt.nl!
+failed to be received by byungjin.hong@mail.mcgill.ca!
+failed to be received by xiao-xu.ling@connect.polyu.hk!
+failed to be received by bwangah@connect.ust.hk!
+failed to be received by czhu@stanford.edu!
+failed to be received by yhuangav@ust.hk!
+failed to be received by haorubin@baf.cuhk.edu.hk!
+failed to be received by atc22@uw.edu!
+failed to be received by yzhangdc@connect.ust.hk!
+failed to be received by kinwaichan@g.harvard.edu!
+failed to be received by ms2375@cam.ac.uk!
+failed to be received by fan.wang1@hec.edu!
+failed to be received by khsueh@stern.nyu.edu!
+failed to be received by stephaniecheng@g.harvard.edu!
+failed to be received by sl736@cam.ac.uk!
+In total, there is 3 messages has been sent successfully while 55 messages can not be sent. 
+End at: 16:39:11
+
+ 
+ Date Updating Log on 2018-09-27
+Start from: 08:14:58
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 08:42:33
+
+ 
+ Date Updating Log on 2018-09-27
+Start from: 09:18:38
+failed to be received by dong.cheng@vanderbilt.edu!
+In total, there is 5 messages has been sent successfully while 1 messages can not be sent. 
+End at: 09:48:20
+
+ 
+ Date Updating Log on 2018-09-28
+Start from: 09:08:29
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:48:36
+
+ 
+ Date Updating Log on 2018-09-28
+Start from: 10:29:29
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 11:22:11
+
+ 
+ Date Updating Log on 2018-09-29
+Start from: 09:18:06
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 09:59:09
+
+ 
+ Date Updating Log on 2018-09-29
+Start from: 14:04:00
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 15:05:04
+
+ 
+ Date Updating Log on 2018-09-30
+Start from: 13:32:55
+In total, there is 5 messages has been sent successfully while 0 messages can not be sent. 
+End at: 14:13:59

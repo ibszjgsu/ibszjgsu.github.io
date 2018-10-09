@@ -155,7 +155,7 @@ def get_links_in_a_journal(front_url):
 
 front_url = 'http://navi.cnki.net/knavi/JournalDetail?pcode=CJFD&pykm=JJYJ'
 j_urls = get_links_in_a_journal(front_url)
-journal_list = pd.DataFrame(columns=['years','issue','url', 'title', 'authors', 'emails', 'institute',
+#journal_list = pd.DataFrame(columns=['years','issue','url', 'title', 'authors', 'emails', 'institute',
                                      'fund','cate','keys','abstract','cites'])
-
-ds.save_into_database_engine(j_list, 'economic_research_journal')
+ds = crawlhandler()
+ds.save_into_database_engine(j_urls, 'economic_research_journal')
