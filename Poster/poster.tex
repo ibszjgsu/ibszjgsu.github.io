@@ -1,0 +1,132 @@
+%% Use the hmcposter class with the thesis document-class option.
+\documentclass[thesis]{hmcposter}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{url}
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.9}
+%% Author of the thesis.
+\author{Qin Zhang}
+
+%% The year of your thesis poster's creation.
+\posteryear{2021}
+%% Thesis Title.
+\title{Nowcasting China's Macroeconomy}
+%% The name of the class for which the poster was created.
+%% Generally we see posters for thesis and Clinic, but sometimes
+%% other classes require or allow the creation of posters to
+%% communicate the results of a project.
+%% 
+%% Use the format Math nnn: Class Title.
+
+%% Advisor(s) name or names.  Separate with \and.
+
+%% Reader(s) name or names.  Separate with \and.
+
+%% Define the \BibTeX command, used in our example document.
+\providecommand{\bibtex}{{\rmfamily B\kern-.05em%
+    \textsc{i\kern-.025em b}\kern-.08em%
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\pagestyle{fancy}
+\begin{document}
+\begin{poster}
+\subsection{Summary}
+% Note that we're not labeling sections because you shouldn't be
+% doing a lot of referring back and forth in your poster---let the
+% interested folks read your thesis or Clinic report, or ask
+% questions.
+This paper undertakes the task of nowcasting GDP for mainland China using machine learning algorithms. Using a large set of quarterly macroeconomic indicators, we train several popular machine learning algorithms and nowcast GDP growth for each quarter over the 1993Q1-2018Q2 period. We compare the predictive accuracy of these nowcasts with those of AR model and dynamic factor model in the state-space representation. We use the model confidence set to obtain a set of best model(s) with 10\% level of confidence. Our results show that shrinkage methods are covered by the model confidence set and therefore are in the set of best models. We conclude that the machine learning algorithms are useful to improve the nowcasting performance of Chinese GDP growth rate.
+
+\subsection{Motivation}%
+\begin{itemize}
+\item Nowcasting refers to forecasting the current or most recent aggregate state of an economy based on a range of partially available indicators before the official economic figures are released.
+\begin{itemize}
+    \item at the stage of initial estimation of macroeconomic variables with incomplete data to better understand the current economic conditions
+    \item to assist with early identification of turning points or significant shifts in an economy's momentum
+    \item update estimates as more information becomes available
+\end{itemize}
+\item For the past decades, the dynamic factor model has been the main tool used for nowcasting by empirical macroeconomists.
+\item However, there is some evidence that the parametric restrictions (or priors) that make these models work discard potentially important information.
+\item Machine learning algorithms have been proposed as treatments for \textit{the curse of dimensionality and regularisation}.
+\item Finally, in the existing literature, limited studies address the problem of nowcasting Chinas GDP
+\end{itemize}
+
+
+\subsection{Nowcasting Algorithm}%
+\begin{enumerate}
+    \item \textbf{[LASSO, Ridge and Elastic Net, and Support Vector Machine]} methods by which to avoid over-fitting the regression model by incorporating different types of constraints or penalties on the vector of the regression coefficients $\beta$
+    \item \textbf{[Feed-Forward Neural Network]} an information processing algorithm that resembles biological nervous systems, nodes in layers connecting to together and form a network system.
+    \item \textbf{[K-Nearest Neighbour Regression]} a non-parametric method that works by nowcasting GDP based on $\mathbf{K}$ most similar observations (neighbours) in the training dataset.
+    \item \textbf{[Decision Tree and Random Forest for Regression]} a hierarchical tree-like partition of the input space wherein data are partitioned into smaller and smaller subsets that contain similar values. 
+    \item \textbf{[The Dynamic Factor Model]} The nowcast of GDP is linked to unobserved and latent factors.
+    \item \textbf{[Auto-regressive]} is a commonly used univariate model in the literature of nowcasting and forecasting.
+\end{enumerate}
+\subsection{Data}
+\begin{itemize}
+    \item a panel of 59 quarterly series and 29 monthly series that we believe best represent Chinas macroeconomy, spanning from 1995 January to 2017 December.
+    \item three types of dataset: soft dataset, hard dataset and total dataset.
+\end{itemize}
+\subsection{Hyperparameter optimisation}
+\begin{itemize}
+    \item divide the predictors and target data into training, validation, and test sets. 
+    \item K-fold cross-validation is used for hyperparameter tuning.
+\end{itemize}
+
+\subsection{Nowcast Evaluation}
+\begin{itemize}
+    \item evaluate the performance of the nowcasting algorithms using an out-of-sample simulation with a fixed estimation window method.
+    \item total sample size in a 70:30 per cent split between in-sample and out-of-sample periods.
+    \item evaluate the nowcasting performance using the MCS by Hansen et al. (2011).
+\end{itemize}
+\subsection{Empirical Result}
+\begin{table}
+\begin{small}
+\caption{Relative MSE and MCS P-Value Results}
+\begin{tabular}{lcc|cc|cc}
+\toprule
+       & \multicolumn{2}{c}{Total Dataset} & \multicolumn{2}{c}{Soft Dataset} & \multicolumn{2}{c}{Hard Dataset}\\ \cline{2-7} 
+\rule{0pt}{3ex}  
+Models & rMSE & P-value & rMSE & P-value& rMSE  & P-value \\
+\rowcolor{Gray}
+AR & 1.00 & 0.00 & 1.00 & 0.10 & 1.00 & 0.01 \\ 
+\rowcolor{Gray}
+Dynamic Factor Model & 1.10 & 0.00 & 1.38 & 0.09 & 1.71 & 0.03 \\ 
+\textit{Shrinkage and regularisation} & & & & & & \\ 
+  Ridge & \textbf{0.15} & \textbf{0.24}* & \textbf{0.78} & 0.03 & \textbf{0.19} & \textbf{0.19}* \\ 
+  LASSO & \textbf{0.25} & \textbf{0.21}* & \textbf{0.75} & 0.04 & \textbf{0.16} & \textbf{0.15}* \\ 
+  Elastic Net & \textbf{0.18} & \textbf{0.46}* & \textbf{0.86} & 0.01 & \textbf{0.20} & \textbf{0.19}* \\ 
+  Support Vector Machine & \textbf{0.09} & \textbf{1.00}* & \textbf{0.43} & \textbf{0.83}* & \textbf{0.08} & \textbf{1.00}* \\ 
+  \rowcolor{Gray}
+  K-Nearest Neighbour & 1.74 & 0.00 & \textbf{0.53} & \textbf{0.59}* & 1.74 & 0.00 \\ 
+  \rowcolor{Gray}
+  Feed-forward Neural Network & 1.38 & 0.00 & 2.44 & 0.00 & 1.50 & 0.00 \\ 
+  \rowcolor{Gray}
+  Random Forest & \textbf{0.61} & 0.02 & 1.26 & 0.01 & \textbf{0.53} & \textbf{0.14}* \\ 
+  \rowcolor{Gray}
+  Regression Tree & \textbf{0.16} & \textbf{0.67}* & \textbf{0.35} & \textbf{1.00}* & \textbf{0.12} & \textbf{0.34}* \\ 
+\bottomrule
+\end{tabular}
+\end{small}
+\end{table}
+\begin{itemize}
+    \item shrinkage methods (LASSO, ridge, elastic net and support vector machine) are covered by the model confidence set and therefore are in the set of best models.
+    \item Soft dataset is more informative then hard dataset.
+    \item Decision tree for regression is only the non-parametric approach in the $\hat{M}^*_{90\%}$
+\end{itemize}
+
+\vspace{1.2cm}
+\begin{figure}
+    \centering
+    \includegraphics[scale=1.7]{LASSO.pdf}
+    \caption{Nowcasts of GDP vs. Actual GDP}
+\end{figure}
+\subsection{Conclusions}
+This paper not only guides practitioners in selecting appropriate nowcasting models for China's economy, but also provides the research community with more feasible directions for ML algorithms in macroeconomic nowcasting and forecasting.
+\end{poster}
+\end{document}
+
+ 
